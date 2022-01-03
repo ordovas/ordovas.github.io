@@ -8,7 +8,7 @@ sitemap: false
 permalink: /miscelaneous/
 ---
 
-Here I put personal out of contex stuff.
+Here I put personal out of context stuff.
 
 ![Photo misc](../../assets/img/intro/collage_var.jpg)
 

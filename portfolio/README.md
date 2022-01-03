@@ -8,7 +8,7 @@ sitemap: false
 permalink: /portfolio/
 ---
 
-I’m allways practicing and learning new tools to improve my data scientist and coding skills. In this page you can find some exercises I've done in [Congizant as a data scienist](#cognizant-related-projects), in the [Ironhack Data Analytics bootcamp](#ironhack-bootcamp-projects) and [on my own](#self-paced-projects). Feel free to have a look at [my personal GitHub account](https://github.com/ordovas/) as well!
+I’m always practicing and learning new tools to improve my data scientist and coding skills. In this page you can find some exercises I've done in [Cognizant as a data scientist](#cognizant-related-projects), in the [Ironhack Data Analytics bootcamp](#ironhack-bootcamp-projects) and [on my own](#self-paced-projects). Feel free to have a look at [my personal GitHub account](https://github.com/ordovas/) as well!
 
 Also, I've deployed some demos in Streamlit with data science models I've developed. [Click here to run them online.](https://share.streamlit.io/ordovas/private_streamlit_apps/main/app.py)
 
@@ -26,7 +26,7 @@ Microsoft offered a bootcamp to test [Azure Percept](https://azure.microsoft.com
 
 #### Automated maintenance - Rust detection
 
-Using deep learning approaches, I've contributed to the automatic rust detection in a case study. Below I show blog posts and the descritpion of the solution as shown in the Cognizant media:
+Using deep learning approaches, I've contributed to the automatic rust detection in a case study. Below I show blog posts and the description of the solution as shown in the Cognizant media:
 
 - [From personnel-based operations to AI-driven automated maintenance](https://www.thecognizant.com/blog/from-personnel-based-operations-to-ai-driven-automated-maintenance/)
 - [Aize aims to cut asset surface inspection costs by 50%](https://www.cognizant.com/us/en/case-studies/aize-cuts-asset-surface-inspection-costs)
@@ -52,7 +52,7 @@ Below I just list the GitHub repo links:
 
 Also, I highlight the following self paced exercises I've done for practicing and learning pruposes that are public:
 
-- [A small Web scraping and RegEx exercise to mine the japanese hardware and softare video game sales.](https://github.com/ordovas/vg_jp_sales)
+- [A small Web scraping and RegEx exercise to mine the japanese hardware and software video game sales.](https://github.com/ordovas/vg_jp_sales)
 
 - [Predicting the numeric ratings of Amazon books review based exclusively on the text of the review.](https://github.com/ordovas/amazon_books_reviews)
 
@@ -60,7 +60,7 @@ Also, I highlight the following self paced exercises I've done for practicing an
 
 
 
-Feel free to have a look at other repositories [here](https://github.com/ordovas/) with other exercises, learning notebooks & code or just simple tests, even if they are uncomplete or not interesting enough to be shown in the profile.
+Feel free to have a look at other repositories [here](https://github.com/ordovas/) with other exercises, learning notebooks & code or just simple tests, even if they are uncompleted or not interesting enough to be shown in the profile.
 
 
 [click here]: ironhack.md

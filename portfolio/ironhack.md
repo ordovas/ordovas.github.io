@@ -17,7 +17,7 @@ Deep learning application to recognize dice roll scores in image or live video u
 ---
 
 ### [Kaggle competition - Predicting diamonds prices](https://github.com/ordovas/kaggle-diamonds)
-This was a Kaggle competition was created by the IronHack instructors. The objective was to train a supervised machine learning model that predicts the price of diamonds based on features as its weight, dimensions, quality of the cut, color, clarity, etc... I tested different Machine Learning algorithms to choose the best approach to complete this project.
+This was a Kaggle competition was created by the Ironhack instructors. The objective was to train a supervised machine learning model that predicts the price of diamonds based on features as its weight, dimensions, quality of the cut, color, clarity, etc... I tested different Machine Learning algorithms to choose the best approach to complete this project.
 
 ---
 
@@ -42,4 +42,4 @@ We worked with a Global Shark Attack dataset. The objective was to clean this da
 ---
 
 ### [Hangman game, programmed in Python (moddable)](https://github.com/ordovas/mini-project)
-A mini-game-project for the Ironhack data analysis bootcamp. In the game you must select a difficulty level (different lifes) and a topic category in order to guess the word/names/etc. related to this category. The program asks the user to type the category from the ones that are available. You can easily mod this game adding a dditional categories to use your favourite themes or removing others.
+A mini-game-project for the Ironhack data analysis bootcamp. In the game you must select a difficulty level (different lives) and a topic category in order to guess the word/names/etc. related to this category. The program asks the user to type the category from the ones that are available. You can easily mod this game adding a additional categories to use your favourite themes or removing others.

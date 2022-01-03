@@ -2,7 +2,7 @@
 layout: page
 title: Astrophysics research contributions
 description: >
-  PhD Thesis, peer reviewed papers and other contribitions of Ignacio Ordovás Pascual
+  PhD Thesis, peer reviewed papers and other contributions of Ignacio Ordovás Pascual
 hide_description: true
 sitemap: false
 permalink: /astro/
@@ -25,7 +25,7 @@ During the 18th and 19th centuries, it was not clear whether the ‘nebulae’ s
 our galaxy, or they were ‘island-universes’ composed of stars ([Kant 1755](https://en.wikipedia.org/wiki/Universal_Natural_History_and_Theory_of_the_Heavens)). 
 Since the discovery in 1924
 of a Cepheid variable star in M31 ([Hubble 1929](https://articles.adsabs.harvard.edu/pdf/1929ApJ....69..103H)), 
-whose emision properies allow us to determine its distance, it became clear that some of them were extragalactic
+whose emission properties allow us to determine its distance, it became clear that some of them were extragalactic
 objects, or more precisely, they were galaxies like the Milky Way. Using spectroscopic analyses, it
 soon became clear as well that some of the galaxies showed emission lines of highly ionized elements
 in their nuclei ([Seyfert 1943](https://ui.adsabs.harvard.edu/abs/1943ApJ....97...28S/abstract)) that cannot be explained just by the emission mechanisms of the stars,
@@ -65,7 +65,7 @@ Below I list different contributions:
 
 ## Supernova classification
 
-As part of the NEON Observing School in Asigago (Italy) in 2015, I was part of an observing campaign which was able to classify a supernova three days after its peak in luminosity. [This was published in the Astromomer's Telegram.](https://www.astronomerstelegram.org/?read=7120)   
+As part of the NEON Observing School in Asiago (Italy) in 2015, I was part of an observing campaign which was able to classify a supernova three days after its peak in luminosity. [This was published in the Astronomer's Telegram.](https://www.astronomerstelegram.org/?read=7120)   
 
 
 [Summary]: agnphd.md

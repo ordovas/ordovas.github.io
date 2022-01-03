@@ -79,7 +79,7 @@ Analyzed data [for the PhD Thesis research](#university-of-cantabria) using info
 - Inference statistics with Python (Hypothesis testing, Bayesian statistics, PCA,..) and analysis techniques applied to real world problems.
 - Supervised and Unsupervised Machine Learning using scikit-learn (Feature extraction, model evaluation, engineering, pipelines,...).
 - Neural Networks in Python using TensorFlow and Keras.
-- APIs (Flask), Web Scraping (BeautifulSoup), Regular Expresions, Natural Language Processing.
+- APIs (Flask), Web Scraping (BeautifulSoup), Regular Expressions, Natural Language Processing.
 
 
 
@@ -120,11 +120,11 @@ I conducted the first part of my Physics degree in the Universidad Complutense d
 - Data Science and Python developer libraries (e.g. Numpy, Pandas, Matplotlib/Seaborn, unittest, logging) 
 - Computer Vision (OpenCV, Azure Custom Vision)
 - Supervised/Unsupervised Machine Learning & Deep Learning (Scikit-learn, TensorFlow, Keras)
-- Natural Language Procesing  
+- Natural Language Processing  
 - Database handling (MySQL, MongoDB)
 - Azure Cloud tools (Fundamentals, Machine Learning Studio, Percept)
-- Data Engeniering tools (Git, GitHub, API)
-- Other: Web Scraping, Regular Expresions, Bash, LaTeX, IDL
+- Data Engineering tools (Git, GitHub, API)
+- Other: Web Scraping, Regular Expressions, Bash, LaTeX, IDL
 
 
 ## Official certifications
@@ -139,5 +139,5 @@ I conducted the first part of my Physics degree in the Universidad Complutense d
 - *Specialization: Machine learning*, Coursera MOOC.
 - *Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning*, Coursera MOOC.
 - *Narrate the Science: Scenic and oral narration techniques for scientific communication*, UC summer course.
-- *AWS Cloud Practitioner Essentials, AWS Cloud Technical Essentials* and *AWS Fundamentals: Addresing Security Risk*, Coursera MOOC.
+- *AWS Cloud Practitioner Essentials, AWS Cloud Technical Essentials* and *AWS Fundamentals: Addressing Security Risk*, Coursera MOOC.
 - *NEON Observing School 2015*, Asiago Observatory (Italy).
