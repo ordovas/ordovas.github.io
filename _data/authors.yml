@@ -1,0 +1,87 @@
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+# Change `author1` to your shortname.
+author1:
+  name:              Ignacio Ordovás Pascual
+  email:             ordovaspascual@gmail.com
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:             |
+    Hi there! I am a data scientist with an academic background. 
+    I transform complex and large databases into precise, 
+    understable and useful pieces of knowledge. I'm always 
+    learning new tools to extract valuable information from 
+    datasets and improving my code skills. My research expertise 
+    in the astrophysics field allows me to mine those shiny data 
+    spots hidden in the darkness. After a career change, I've joined 
+    Cognizant as a data scientist.
+
+  # This photo will be used in the about section
+  picture:
+    path:            /assets/img/logo.png
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    srcset:
+      1x:            /assets/img/logo.png
+      2x:            /assets/img/logo.png
+
+  # Social media icons in sidebar
+  # Comment/uncommet to show/hide
+  # Rearrange to change the order in which they appear
+  social:
+    # twitter:         <username>
+    email:           ordovaspascual@gmail.com
+    linkedin:        ordovaspascual
+    github:          ordovas    
+    instagram:       nachordop
+    ads:             https://ui.adsabs.harvard.edu/search/p_=0&q=author%3A%22ordov%C3%A1s-pascual%22&sort=date%20desc%2C%20bibcode%20desc
+    download:        https://ordovas.github.io/files/CV_iop_eng.pdf
+    # rss:             https://<url>/feed.xml
+    # facebook:        <username>
+    # google:          <number>
+    # vk:              <username>
+    # youtube:         <string_string_string>
+    # vimeo:           <username>
+    # vine:            <username>
+    # spotify:         <user>/<number>
+    # soundcloud:      <username>
+    # lastfm:          <username>    
+    # flickr:          <string@string>
+    # 500px:           <username>
+    # dribbble:        <username>
+    # behance:         <username>
+    # deviantart:      <username>
+    # ello:            <username>
+    # twitch:          <username>
+    # steam:           <number>
+    # reddit:          <username>
+    # tumblr:          <username>
+    # pinterest:       <username>
+    # foursquare:      <number>
+    # yelp:            <string>
+    # stackoverflow:   <number/username>
+    # npm:             <username>
+    # hackernews:      <username>
+    # trello:          <firstnamelastname>    
+    # xing:            <firstname_lastname_counter>
+    # blogger:         <number>
+    # delicious:       <username>
+    # stumbleupon:     <username>
+    # paypal:          <username>
+    # download:        <url>
+    # keybase          <username>
+
+# Another author (optional)
+# author2:
+#   name:              <firtname> <lastname>
+#   email:             <mail@domain.tld>
+#   about:             |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+#     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# 
+#     Open `_data/authors.yml` to edit this text.
+# 
+#   picture:           https://placehold.it/128x128
+#   twitter:           <username>
+#   github:            <username>

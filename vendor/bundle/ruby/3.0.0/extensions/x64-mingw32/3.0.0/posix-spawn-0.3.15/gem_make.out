@@ -1,0 +1,14 @@
+current directory: C:/Users/NACHO/Desktop/hydejack-starter-kit-master/vendor/bundle/ruby/3.0.0/gems/posix-spawn-0.3.15/ext
+C:/Ruby30-x64/bin/ruby.exe -I C:/Ruby30-x64/lib/ruby/3.0.0 -r ./siteconf20211230-21232-9yza37.rb extconf.rb
+
+current directory: C:/Users/NACHO/Desktop/hydejack-starter-kit-master/vendor/bundle/ruby/3.0.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\= clean
+make: *** No hay ninguna regla para construir el objetivo 'clean'.  Alto.
+
+current directory: C:/Users/NACHO/Desktop/hydejack-starter-kit-master/vendor/bundle/ruby/3.0.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\=
+make: No se hace nada para 'default'.
+
+current directory: C:/Users/NACHO/Desktop/hydejack-starter-kit-master/vendor/bundle/ruby/3.0.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\= install
+make: No se hace nada para 'install'.
