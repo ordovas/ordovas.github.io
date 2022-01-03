@@ -12,7 +12,7 @@ In this page you can read my contributions in the astrophysics field. In particu
 
 My activity in astrophysics was mainly conducted in the Canary Islands while I was studying, and later on in Santander, at the Institute of Physics of Cantabria, where I worked on my PhD Thesis. Also, I've worked as a visiting research fellow at the Observatory of Brera in Milan and in the National Observatory of Athens during my PhD studies. 
 
-You can find my astrophysics research papers and other contributions in [ADS](https://ui.adsabs.harvard.edu/search/q=author%3A%22ordov%C3%A1s-pascual%22&sort=date%20desc%2C%20bibcode%20desc&p_=0).
+You can find my astrophysics research papers and other contributions in [ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-1993-0334&sort=date%20desc%2C%20bibcode%20desc&p_=0).
 
 ![Photo astro](../../assets/img/intro/collage_astro.jpg)
 
