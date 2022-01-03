@@ -50,7 +50,7 @@ Below I just list the GitHub repo links:
 
 ## Self-paced projects
 
-Also, I highlight the following self paced exercises I've done for practicing and learning pruposes that are public:
+Also, I highlight the following self paced exercises I've done for practicing and learning purposes that are public:
 
 - [A small Web scraping and RegEx exercise to mine the japanese hardware and software video game sales.](https://github.com/ordovas/vg_jp_sales)
 
