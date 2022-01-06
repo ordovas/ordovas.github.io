@@ -50,7 +50,7 @@ Below I list some of my contributions
 
 ## K-means clustering in astrophysics
 
-In my Master Thesis I've had my first experience with unsupervised machine learning. There, 
+In my Master Thesis I've had my first experience with machine learning under the supervision of Jorge Sánchaz Almeida, from the Institute of Astropnysics of Canarias (La Laguna, Spain). There, 
 I've worked using the k-means unsupervised classification algorithm applied to galaxy spectra using
 a modification of the original algorithm, so the centroids of the clusters are updated *on-the-fly* (single pass K-means).
 Later on, I've collaborated in the first steps of a study applying k-means clustering to the stars of the [APOGEE survey](https://www.sdss.org/dr14/irspec/).
@@ -65,7 +65,7 @@ Below I list different contributions:
 
 ## Supernova classification
 
-As part of the NEON Observing School in Asiago (Italy) in 2015, I was part of an observing campaign which was able to classify a supernova three days after its peak in luminosity. [This was published in the Astronomer's Telegram.](https://www.astronomerstelegram.org/?read=7120)   
+As part of the NEON Observing School in Asiago (Italy) in 2015, I was part of an observing campaign where we classified a supernova six days after its peak in luminosity. [This was published in the Astronomer's Telegram.](https://www.astronomerstelegram.org/?read=7120)   
 
 
 [Summary]: agnphd.md
