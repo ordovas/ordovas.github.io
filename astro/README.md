@@ -50,7 +50,7 @@ Below I list some of my contributions
 
 ## K-means clustering in astrophysics
 
-In my Master Thesis I've had my first experience with machine learning under the supervision of Jorge Sánchaz Almeida, from the Institute of Astropnysics of Canarias (La Laguna, Spain). There, 
+In my Master Thesis I've had my first experience with machine learning under the supervision of [Jorge Sánchaz Almeida](http://research.iac.es/galeria/jos/), from the Institute of Astrophysics of Canarias (La Laguna, Spain). There, 
 I've worked using the k-means unsupervised classification algorithm applied to galaxy spectra using
 a modification of the original algorithm, so the centroids of the clusters are updated *on-the-fly* (single pass K-means).
 Later on, I've collaborated in the first steps of a study applying k-means clustering to the stars of the [APOGEE survey](https://www.sdss.org/dr14/irspec/).

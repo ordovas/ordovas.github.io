@@ -18,7 +18,7 @@ permalink: /cv/
 
 I’m a versatile data science consultant based in Madrid. I’m capable of
 helping clients to solve their problems creatively and handle complex
-databases to obtain precise, understable and useful insights. I’m always 
+databases to obtain precise, understandable and useful insights. I’m always 
 curious to learn the latest techniques and learn new tools to solve customer needs.
 
 
