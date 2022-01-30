@@ -24,6 +24,8 @@ Microsoft offered a bootcamp to test [Azure Percept](https://azure.microsoft.com
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/juJ8_O-wIwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+In the Microsoft's Internet of Things Blog we have published an entry describing our approach. [Click here to read it.](https://techcommunity.microsoft.com/t5/internet-of-things-blog/retail-self-checkout-object-detection-solution-using-azure/ba-p/3072914)
+
 #### Automated maintenance - Rust detection
 
 Using deep learning approaches, I've contributed to the automatic rust detection in a case study. Below I show blog posts and the description of the solution as shown in the Cognizant media:
