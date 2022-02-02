@@ -12,6 +12,9 @@ permalink: /cv/
 
  - **Sections:** *[EXPERIENCE](#experience) - [EDUCATION](#education) - [SKILLS, CERTIFICATIONS AND COURSES](#skills-certifications-and-courses)*
 
+ 
+[Download CV](https://ordovas.github.io/files/CV_iop_eng.pdf)
+
 ---
 
 ## About me
@@ -26,6 +29,7 @@ I’ve studied Physics and started my work experience in academic research,
 analyzing Active Galactic Nuclei spectral data. My research work experience 
 helps me apply skills like teamwork, working to deadlines, and communicating 
 results and complex ideas effectively to a non-technical audience.
+
 
 ---
 

@@ -204,7 +204,7 @@ keybase:
   icon: icon-key
   prepend: "https://keybase.io/"
 download:
-  name: Download
+  name: Download CV
   icon: icon-box-add
 ads:
   name: SAO/NASA Astrophysics Data System
