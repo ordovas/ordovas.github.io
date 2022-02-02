@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Miscelaneous
+title: Miscellaneous
 description: >
    Various personal stuff I want to put somewhere
 hide_description: true
 sitemap: false
-permalink: /miscelaneous/
+permalink: /miscellaneous/
 ---
 
 Here I put personal out of context stuff.
