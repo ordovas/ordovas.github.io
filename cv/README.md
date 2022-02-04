@@ -19,16 +19,10 @@ permalink: /cv/
 
 ## About me
 
-I’m a versatile data science consultant based in Madrid. I’m capable of
-helping clients to solve their problems creatively and handle complex
-databases to obtain precise, understandable and useful insights. I’m always 
-curious to learn the latest techniques and learn new tools to solve customer needs.
+I’m a versatile data science consultant based in Madrid. I’m capable of helping clients to solve their problems creatively and handle complex databases to obtain precise, understandable and useful insights. I have many years of analytical experience and I've recently started to fully adapt to a professional environment where I am involved in a cross functional client's project as well as several internal projects involving machine learning pipelines.
 
+My experience helps me apply skills like teamwork, meeting deadlines, and communicating results and complex ideas effectively to a non-technical audience. I'm a curious and fast learner of latest techniques in data science.
 
-I’ve studied Physics and started my work experience in academic research, 
-analyzing Active Galactic Nuclei spectral data. My research work experience 
-helps me apply skills like teamwork, working to deadlines, and communicating 
-results and complex ideas effectively to a non-technical audience.
 
 
 ---
@@ -44,12 +38,20 @@ results and complex ideas effectively to a non-technical audience.
 
 ### [Cognizant Technology Solutions Corp.](https://www.cognizant.com/)
 #### Associate Data Scientist *(May 2021 – Present)*
-Data Scientist in the Artificial Intelligence & Analytics guild. Participation in the following projects:
+Data Scientist associate in the Artificial Intelligence & Analytics guild. ​Participation in the following projects:
 
-- Computer vision projects using image and video to detect automatically defects in objects of interest, applying object recognition and segmentation using different machine learning and deep learning solutions.
-- Automation of business processes as python developer. Creation of code connecting the pipeline with different databases in SQL to select or update them, or customizing XML configuration files, among other tasks.
-- Exploration of applications of the DoWhy Causal Inference library in python.
-- Mentoring of graduates to teach concepts of Data Science and Computer Vision.
+- Automatization of trade transactions calibration and validation:
+  - Creation of a pipelines to support client's transactions. 
+  - Developing DB connections and provided a solution able to run with a single function call. 
+  - Created automatic logs and coded test scripts to ensure stability and maintainability.
+
+- Computer vision projects:
+  - Built different Neural Networks and ML solutions to detect defects in objects of interest (using autoencoders or clustering, among other approaches). 
+  - Collaborated with team members to create API endpoints to put the solution in production. 
+  - Deployed computer vision demos for different use cases in an Azure web app using Docker and Streamlit.
+
+- Mentoring:
+  - Taught data science and computer vision concepts and applications to graduates.
 
 
 ### [Institute of Physics of Cantabria (CSIC-UC)](https://ifca.unican.es/en-us)
