@@ -8,15 +8,16 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Hi there! II’m a versatile data scientist based in Madrid. I’m capable 
-    of helping clients to solve their problems creatively and handle complex
-     data to obtain precise, understandable and useful insights. I have many
-      years of analytical experience and I've recently started to fully adapt
-       to a professional environment where I am involved in a cross functional
-        projects involving machine learning pipelines. My experience helps 
-        me apply skills like teamwork, meeting deadlines, and communicating 
-        results and complex ideas effectively to a non-technical audience. I'm
-         a curious and fast learner of latest techniques in data science. 
+    Hi there! I’m a versatile data scientist based in Madrid. I’m capable 
+    of helping companies to solve their problems creatively and handle complex
+     data to obtain precise, understandable and useful insights. With a strong 
+     scientific background and extensive experience as a Data Scientist, I thrive
+      in the dynamic environment of professional consulting. Having contributed 
+      to cross-functional client projects and internal initiatives focused on ML 
+      pipelines, I excel in teamwork, meeting deadlines, and effectively communicating 
+      complex ideas to non-technical audiences. As a curious and fast learner, I 
+      continuously embrace the latest data science techniques, ensuring adaptability 
+      and delivering tangible results. 
   # This photo will be used in the about section
   picture:
     path:            /assets/img/logo.png
@@ -33,7 +34,7 @@ author1:
     email:           ordovaspascual@gmail.com
     linkedin:        ordovaspascual
     github:          ordovas    
-    instagram:       nachordop
+    instagram:       nach0rdo
     ads:             https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-1993-0334&sort=date%20desc%2C%20bibcode%20desc&p_=0
     download:        https://ordovas.github.io/files/CV_iop_eng.pdf
     # rss:             https://<url>/feed.xml
