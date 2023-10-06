@@ -40,6 +40,11 @@ My experience helps me apply skills like teamwork, meeting deadlines, and commun
 #### Associate Data Scientist *(May 2021 – Present)*
 Participation in projects involving Life Sciences, Insurance, Food quality control and Oil & gas companies. Some examples of my work are listed below.
 
+- General Data Science experience:
+  - Generative AI demo for obtaining automatic insights from supply chain datasets using chat prompts in python using LangChain with OpenAI GPT-3/4 LLMs.
+  - NLP use case for record matching using NLP techniques (sentence similarity, Fuzzy string matching).
+  - Optimization use cases to obtain the most adequate actions to use in the supply chain.
+
 - Statistical and scientific experience:
   - Analyze survey multi dimensional data to make arguments based in data using Causal Inference techniques, Propensity Score Weighting or Bootstrapping.
   - Maintenance of algorithms coded in python, implementing feedback requests from the users, product owner and experts.
