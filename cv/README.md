@@ -19,9 +19,7 @@ permalink: /cv/
 
 ## About me
 
-I’m a versatile data scientist based in Madrid. I’m capable of helping clients to solve their problems creatively and handle complex data to obtain precise, understandable and useful insights. I have many years of analytical experience and I've recently started to fully adapt to a professional environment where I am involved in a cross functional projects involving machine learning pipelines.
-
-My experience helps me apply skills like teamwork, meeting deadlines, and communicating results and complex ideas effectively to a non-technical audience. I'm a curious and fast learner of latest techniques in data science.
+With a strong scientific background and extensive experience as a Data Scientist, I thrive in the dynamic environment of data science. Having contributed to cross-functional projects and internal initiatives focused on ML pipelines, I excel in teamwork, meeting deadlines, and effectively communicating complex ideas to non-technical audiences. As a curious and fast learner, I continuously embrace the latest data science techniques, ensuring adaptability and delivering tangible results.
 
 
 
@@ -41,9 +39,9 @@ My experience helps me apply skills like teamwork, meeting deadlines, and commun
 Participation in projects involving Life Sciences, Insurance, Food quality control and Oil & gas companies. Some examples of my work are listed below.
 
 - General Data Science experience:
-  - Generative AI demo for obtaining automatic insights from supply chain datasets using chat prompts in python using LangChain with OpenAI GPT-3/4 LLMs.
-  - NLP use case for record matching using NLP techniques (sentence similarity, Fuzzy string matching).
-  - Optimization use cases to obtain the most adequate actions to use in the supply chain.
+  - Coded a Generative AI demo for obtaining automatic insights from supply chain datasets using chat prompts in python using LangChain with OpenAI GPT-3/4 LLMs.
+  - Designed a NLP use case for record matching using NLP techniques (sentence similarity, Fuzzy string matching).
+  - Worked on optimization use cases to obtain the most adequate actions to use in the supply chain.
 
 - Statistical and scientific experience:
   - Analyze survey multi dimensional data to make arguments based in data using Causal Inference techniques, Propensity Score Weighting or Bootstrapping.
