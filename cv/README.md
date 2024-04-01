@@ -39,7 +39,7 @@ With a strong scientific background and extensive experience as a Data Scientist
 Participation in projects involving Life Sciences, Insurance, Food quality control and Oil & gas companies. Some examples of my work are listed below.
 
 - General Data Science experience:
-  - Coded a Generative AI demo for obtaining automatic insights from supply chain datasets using chat prompts in python using LangChain with OpenAI GPT-3/4 LLMs.
+  - Coded a Generative AI chatbot for allowing the user to obtain automatic descriptive analytics and generate plots to help in logistics planning. The chatbot is connected with a graph database with supply chain logistics data.
   - Designed a NLP use case for record matching using NLP techniques (sentence similarity, Fuzzy string matching).
   - Worked on optimization use cases to obtain the most adequate actions to use in the supply chain.
 
