@@ -14,7 +14,14 @@ Also, I've deployed some demos in Streamlit with data science models I've develo
 
 ---
 
-## Cognizant related projects
+## Cognizant related highlights
+
+#### Invited talk about GenAI at FOSSCILT 24:
+I was an invited speaker at the FOSSCILT 24 conference:
+
+https://fosscilt.icfoss.org/
+
+We gave a presentation about the performance of LLMs with mathematical operations. [Click here to watch it it.](https://www.youtube.com/live/KaiTZIsTBYk?si=fusV0_Osfi5NkrTR&t=4042)
 
 #### Azure Percept object detection case study
 
