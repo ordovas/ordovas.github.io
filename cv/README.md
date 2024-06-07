@@ -40,12 +40,13 @@ Participation in projects involving Life Sciences, Insurance, Food quality contr
 
 - General Data Science experience:
   - Coded a Generative AI chatbot for allowing the user to obtain automatic descriptive analytics and generate plots to help in logistics planning. The chatbot is connected with a graph database with supply chain logistics data.
+  - Developed an RAG-based chatbot for internal data used in production at a banking company. Improved its performance, resulting in a decision to increase the user base from 50 to 600 employees
   - Designed a NLP use case for record matching using NLP techniques (sentence similarity, Fuzzy string matching).
   - Worked on optimization use cases to obtain the most adequate actions to use in the supply chain.
 
 - Statistical and scientific experience:
   - Analyze survey multi dimensional data to make arguments based in data using Causal Inference techniques, Propensity Score Weighting or Bootstrapping.
-  - Maintenance of algorithms coded in python, implementing feedback requests from the users, product owner and experts.
+  - Updated an AI model to assist clinical study designers in planning procedure schedules, implementing feedback requests from the users, product owner and experts.
 
 - Developer tasks:
   - Developing MySQL DB connections in python. 

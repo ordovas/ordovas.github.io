@@ -53,8 +53,6 @@ menu:
     url:               /cv/
   - title:             Data Science Portfolio
     url:               /portfolio/
-  - title:             Data Science Demos
-    url:               https://share.streamlit.io/ordovas/private_streamlit_apps/main/app.py
   - title:             Astrophysics Research
     url:               /astro/
   - title:             Miscellaneous
@@ -62,6 +60,9 @@ menu:
   - title:             About
     url:               /about/
     
+
+#  - title:             Data Science Demos
+#    url:               https://share.streamlit.io/ordovas/private_streamlit_apps/main/app.py
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
