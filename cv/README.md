@@ -29,13 +29,16 @@ With a strong scientific background and extensive experience as a Data Scientist
 
 # Experience
 
+[![Full-width image](..\assets\img\cv\sdg.jpg)](#sdg-group)
 [![Full-width image](..\assets\img\cv\cognizant.png)](#cognizant-technology-solutions-corp)
 [![Full-width image](..\assets\img\cv\ifca.jpg)](#institute-of-physics-of-cantabria-csic-uc)
 
+### [SDG Group](https://www.cognizant.com/)
+#### Senior Consultant *(Sep 2021 – Present)*
+Data Science Senior Consultant at SDG Group Spain.
 
-
-### [Cognizant Technology Solutions Corp.](https://www.cognizant.com/)
-#### Associate Data Scientist *(May 2021 – Present)*
+### [Cognizant Technology Solutions Corp.](https://www.sdggroup.com/es-es/)
+#### Associate Data Scientist *(May 2021 – Aug 2024)*
 Participation in projects involving Life Sciences, Insurance, Food quality control and Oil & gas companies. Some examples of my work are listed below.
 
 - General Data Science experience:
