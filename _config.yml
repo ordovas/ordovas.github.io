@@ -4,12 +4,13 @@
 title:       Ignacio Ordovás Pascual
 tagline:     Data Scientist, PhD
 description: >-
-  Personal website of Ignacio Ordovás Pascual, PhD. Data scientist in Madrid
-  with a background in astrophysics. CV, projects and research.
+  Ignacio Ordovás Pascual, PhD: senior data science consultant in Madrid working
+  on generative AI, RAG, NLP and computer vision, with a background in
+  astrophysics research. CV, projects and publications.
 url:         https://ordovas.github.io
 baseurl:     ""
 lang:        en
-logo:        /assets/img/logo.png
+logo:        /assets/img/profile.jpg
 
 author:
   name:  Ignacio Ordovás Pascual
@@ -37,6 +38,13 @@ defaults:
       path: ""
     values:
       layout: page
+      image: /assets/img/og-card.jpg   # preview image for Google, LinkedIn, WhatsApp...
+
+# Search engine ownership checks. Paste the codes from Google Search Console /
+# Bing Webmaster Tools here (see README), then uncomment.
+# webmaster_verifications:
+#   google: XXXXXXXXXXXXXXXX
+#   bing:   XXXXXXXXXXXXXXXX
 
 markdown: kramdown
 kramdown:

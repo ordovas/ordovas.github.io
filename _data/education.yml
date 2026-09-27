@@ -40,6 +40,7 @@
     ([Ordovás-Pascual & Sánchez Almeida 2014](https://www.aanda.org/articles/aa/full_html/2014/05/aa23806-14/aa23806-14.html)).
 
 - school:  Complutense University of Madrid & University of La Laguna
+  alumni_of: Complutense University of Madrid   # name used in structured data
   logo:    /assets/img/cv/logoULL.png
   degree:  Bachelor's Degree in Physics
   start:   Sep 2005
