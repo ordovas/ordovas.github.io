@@ -1,0 +1,53 @@
+# Featured work, most recent first. The home page shows the first four.
+- title: Injecting company jargon for generative AI
+  kind:  Article
+  text:  >-
+    An article for SDG Group's Medium publication on bringing company-specific
+    jargon into generative AI use cases.
+  links:
+    - label: Read on Medium
+      url:   https://medium.com/sdg-group/injecting-company-jargon-for-generative-ai-specific-use-cases-bde8d198751e
+
+- title: Invited talk at FOSSCILT '24 (GenAI and maths)
+  kind:  Talk
+  year:  2024
+  text:  >-
+    Invited speaker at the FOSSCILT 2024 conference, presenting how LLMs perform on
+    mathematical operations.
+  links:
+    - label: Watch the talk
+      url:   https://www.youtube.com/live/KaiTZIsTBYk?si=fusV0_Osfi5NkrTR&t=4042
+    - label: Conference
+      url:   https://fosscilt.icfoss.org/
+
+- title: Retail self-checkout with Azure Percept
+  kind:  Case study
+  text:  >-
+    A general fruit-detection model on Microsoft's Azure Percept edge-AI device,
+    using Custom Vision and IoT Hub. Published on Microsoft's Internet of Things blog.
+  links:
+    - label: Read the blog post
+      url:   https://techcommunity.microsoft.com/t5/internet-of-things-blog/retail-self-checkout-object-detection-solution-using-azure/ba-p/3072914
+    - label: Video
+      url:   https://www.youtube.com/watch?v=juJ8_O-wIwA
+
+- title: AI-driven rust detection
+  kind:  Case study
+  text:  >-
+    Deep-learning models for automatic surface-rust detection in industrial
+    assets, part of a Cognizant solution aiming to cut inspection costs by 50%.
+  links:
+    - label: Case study
+      url:   https://www.cognizant.com/us/en/case-studies/aize-cuts-asset-surface-inspection-costs
+    - label: Blog post
+      url:   https://www.thecognizant.com/blog/from-personnel-based-operations-to-ai-driven-automated-maintenance/
+
+- title: Dice score recognition
+  kind:  Project
+  year:  2020
+  text:  >-
+    CNN-based recognition of dice rolls in images and live video. My Ironhack
+    final project, selected for the Hackshow.
+  links:
+    - label: Code on GitHub
+      url:   https://github.com/ordovas/dice-scores-recognition

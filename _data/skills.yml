@@ -1,0 +1,39 @@
+groups:
+  - title: Languages & core
+    items: [Python, SQL, Bash, Git, LaTeX, IDL]
+  - title: Machine learning
+    items: [scikit-learn, TensorFlow, Keras, Deep learning, Supervised & unsupervised ML]
+  - title: Generative AI & NLP
+    items: [LLMs, RAG, LangChain, Sentence similarity, Fuzzy matching]
+  - title: Computer vision
+    items: [OpenCV, Azure Custom Vision, Azure Percept, Autoencoders]
+  - title: Data & statistics
+    items: [NumPy, Pandas, Matplotlib, Seaborn, Statistics, Bootstrapping]
+  - title: Data stores
+    items: [MySQL, MongoDB, Graph databases]
+  - title: Cloud & deployment
+    items: [Azure, Databricks, "AWS (S3, ECR)", Docker, Flask, Streamlit, CI/CD with GitHub]
+
+certifications:
+  - name: Databricks Certified Generative AI Engineer Associate
+    date: Sep 2026
+    url:  https://credentials.databricks.com/c0c7d13a-60c9-4fa7-89a0-8a16d408def3
+  - name: "Microsoft Certified: Azure Fundamentals (AZ-900)"
+    date: Sep 2021
+    url:  https://www.credly.com/badges/525826f3-bad4-42b2-a243-043689d96d7d/linked_in
+
+courses:
+  - Azure Percept Bootcamp (Microsoft)
+  - The Complete GitHub Actions & Workflows Guide (Udemy)
+  - Complete TensorFlow 2 and Keras Deep Learning Bootcamp (Udemy)
+  - Learn BERT, the NLP algorithm by Google (Udemy)
+  - "AWS Cloud Practitioner Essentials, AWS Cloud Technical Essentials and AWS Fundamentals: Addressing Security Risk (Coursera)"
+  - Microsoft Azure DP-100, AZ-900, AI-900, DP-900 (Udemy)
+  - Machine Learning specialisation (Coursera)
+  - Introduction to TensorFlow for AI, ML and Deep Learning (Coursera)
+  - Hands-on Natural Language Processing with Python (Udemy)
+  - Python for Computer Vision with OpenCV and Deep Learning (Udemy)
+  - "Business Etiquette 101: Social Skills (Udemy)"
+  - "Narrate the Science: scenic and oral narration for science communication (University of Cantabria)"
+  - NEON Observing School 2015 (Asiago Observatory, Italy)
+

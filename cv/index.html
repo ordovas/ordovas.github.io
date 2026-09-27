@@ -1,0 +1,117 @@
+---
+layout: default
+title: Curriculum Vitae
+description: Curriculum vitae of Ignacio Ordovás Pascual, PhD, data scientist with a background in astrophysics.
+permalink: /cv/
+body_class: cv-page
+---
+{%- assign p = site.data.profile -%}
+{%- assign s = site.data.skills -%}
+
+<article class="wrap cv">
+  <header class="cv-header">
+    <div>
+      <h1>{{ p.name }}<span class="honorific">, {{ p.honorific }}</span></h1>
+      <p class="lead">{{ p.role }} · {{ p.company }} · {{ p.location }}</p>
+      <ul class="cv-contact">
+        {%- for link in p.links limit: 4 %}
+        <li><a href="{{ link.url }}">{% include icon.html name=link.icon %}<span>{{ link.label }}</span></a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <div class="cv-actions no-print">
+      <a class="btn btn-primary" href="{{ p.cv_pdf | relative_url }}" download>{% include icon.html name="download" %} Download CV (PDF)</a>
+      <button class="btn" type="button" onclick="window.print()">{% include icon.html name="printer" %} Print</button>
+    </div>
+  </header>
+
+  <nav class="cv-toc no-print" aria-label="CV sections">
+    <a href="#profile">Profile</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#publications">Publications</a>
+    <a href="#courses">Certifications &amp; courses</a>
+  </nav>
+
+  <section class="cv-section" id="profile">
+    <h2>Profile</h2>
+    <div class="prose">{{ p.about | markdownify }}</div>
+  </section>
+
+  <section class="cv-section" id="experience">
+    <h2>Experience</h2>
+    {%- for job in site.data.experience %}
+    <div class="cv-entry">
+      <img class="logo" src="{{ job.logo | relative_url }}" alt="" width="44" height="44" loading="lazy">
+      <div class="cv-entry-body">
+        <div class="cv-entry-head">
+          <h3>{{ job.role }}</h3>
+          <p class="when">{{ job.start }} – {{ job.end }}</p>
+        </div>
+        <p class="org"><a href="{{ job.url }}">{{ job.company }}</a> · {{ job.location }}</p>
+        {%- if job.groups %}
+        {%- for g in job.groups %}
+        <h4>{{ g.title }}</h4>
+        <ul>
+          {%- for item in g.items %}<li>{{ item | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>{% endfor %}
+        </ul>
+        {%- endfor %}
+        {%- else %}
+        <p>{{ job.summary }}</p>
+        {%- endif %}
+      </div>
+    </div>
+    {%- endfor %}
+  </section>
+
+  <section class="cv-section" id="education">
+    <h2>Education</h2>
+    {%- for e in site.data.education %}
+    <div class="cv-entry">
+      <img class="logo" src="{{ e.logo | relative_url }}" alt="" width="44" height="44" loading="lazy">
+      <div class="cv-entry-body">
+        <div class="cv-entry-head">
+          <h3>{{ e.degree }}</h3>
+          <p class="when">{{ e.start }} – {{ e.end }}</p>
+        </div>
+        <p class="org">{% if e.url %}<a href="{{ e.url }}">{{ e.school }}</a>{% else %}{{ e.school }}{% endif %}</p>
+        <div class="prose">{{ e.details | markdownify }}</div>
+      </div>
+    </div>
+    {%- endfor %}
+  </section>
+
+  <section class="cv-section" id="skills">
+    <h2>Skills</h2>
+    <dl class="skills">
+      {%- for g in s.groups %}
+      <div>
+        <dt>{{ g.title }}</dt>
+        <dd><ul class="tags">{% for i in g.items %}<li>{{ i }}</li>{% endfor %}</ul></dd>
+      </div>
+      {%- endfor %}
+    </dl>
+  </section>
+
+  <section class="cv-section" id="publications">
+    <h2>Publications</h2>
+    <ul class="pubs">
+      {%- for pub in site.data.publications %}{% include publication.html pub=pub %}{% endfor %}
+    </ul>
+    {%- assign ads = p.links | where: "icon", "book" | first %}
+    <p class="note">Full list on <a href="{{ ads.url }}">NASA ADS</a>.</p>
+  </section>
+
+  <section class="cv-section" id="courses">
+    <h2>Certifications &amp; courses</h2>
+    <ul class="plain">
+      {%- for c in s.certifications %}
+      <li><a href="{{ c.url }}"><strong>{{ c.name }}</strong></a> ({{ c.date }})</li>
+      {%- endfor %}
+    </ul>
+    <ul class="courses">
+      {%- for c in s.courses %}<li>{{ c }}</li>{% endfor %}
+    </ul>
+  </section>
+</article>

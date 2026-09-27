@@ -1,0 +1,71 @@
+# `featured: true` entries are shown on the home page.
+- title:   "Extinction and AGN over host galaxy contrast effects on the optical spectroscopic classification of AGN"
+  authors: Barquín-González, L.; Mateos, S.; Carrera, F. J.; Ordovás-Pascual, I.; Alonso-Herrero, A.; Caccianiga, A.; Cardiel, N.; Corral, A.; Domínguez, R. M.; García-Bernete, I.; Mountrichas, G.; Severgnini, P.
+  venue:   A&A 687, A159
+  year:    2024
+  topic:   agn
+  links:
+    - label: DOI
+      url:   https://doi.org/10.1051/0004-6361/202348948
+    - label: arXiv
+      url:   https://arxiv.org/abs/2404.19544
+
+- title:   "A multifrequency view of Active Galactic Nuclei"
+  authors: Ordovás-Pascual, I.
+  venue:   PhD Thesis, University of Cantabria
+  year:    2019
+  topic:   agn
+  featured: true
+  links:
+    - label: Summary
+      url:   /astro/agnphd/
+    - label: PDF
+      url:   https://repositorio.unican.es/xmlui/bitstream/handle/10902/18024/Tesis%20IOP.pdf?sequence=1&isAllowed=y
+    - label: UCrea
+      url:   https://repositorio.unican.es/xmlui/handle/10902/18024
+
+- title:   "Machine learning in APOGEE. Unsupervised spectral classification with K-means"
+  authors: Garcia-Dias, R.; Allende Prieto, C.; Sánchez Almeida, J.; Ordovás-Pascual, I.
+  venue:   A&A 612, A98
+  year:    2018
+  topic:   kmeans
+  links:
+    - label: ADS
+      url:   https://ui.adsabs.harvard.edu/abs/2018A%26A...612A..98G/abstract
+    - label: Full text
+      url:   https://ui.adsabs.harvard.edu/link_gateway/2018A%26A...612A..98G/PUB_HTML
+
+- title:   "AGNs with discordant optical and X-ray classification are not a physical family: diverse origin in two AGNs"
+  authors: Ordovás-Pascual, I.; Mateos, S.; Carrera, F. J.; Wiersema, K.; Barcons, X.; Braito, V.; Caccianiga, A.; Del Moro, A.; Della Ceca, R.; Severgnini, P.
+  venue:   MNRAS 469, 693
+  year:    2017
+  topic:   agn
+  featured: true
+  links:
+    - label: ADS
+      url:   https://ui.adsabs.harvard.edu/abs/2017MNRAS.469..693O/abstract
+    - label: Full text
+      url:   https://academic.oup.com/mnras/article/469/1/693/3192211
+
+- title:   "Searching for luminous absorbed sources in the WISE AGN catalogue"
+  authors: Mountrichas, G.; Georgantopoulos, I.; Secrest, N. J.; Ordovás-Pascual, I.; Corral, A.; Akylas, A.; Mateos, S.; Carrera, F. J.; Batziou, E.
+  venue:   MNRAS 468, 3042
+  year:    2017
+  topic:   agn
+  links:
+    - label: ADS
+      url:   https://ui.adsabs.harvard.edu/abs/2017MNRAS.468.3042M/abstract
+    - label: Full text
+      url:   https://ui.adsabs.harvard.edu/link_gateway/2017MNRAS.468.3042M/PUB_HTML
+
+- title:   "A fast version of the k-means classification algorithm for astronomical applications"
+  authors: Ordovás-Pascual, I.; Sánchez Almeida, J.
+  venue:   A&A 565, A53
+  year:    2014
+  topic:   kmeans
+  featured: true
+  links:
+    - label: ADS
+      url:   https://ui.adsabs.harvard.edu/abs/2014A%26A...565A..53O/abstract
+    - label: Full text
+      url:   https://ui.adsabs.harvard.edu/link_gateway/2014A%26A...565A..53O/PUB_HTML

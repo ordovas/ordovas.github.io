@@ -1,0 +1,65 @@
+name:     Ignacio Ordovás Pascual
+honorific: PhD
+role:     Senior Data Science Consultant
+company:  SDG Group
+location: Madrid, Spain
+photo:    /assets/img/logo.png
+cv_pdf:   /files/CV_iop_eng.pdf
+
+# One-liner under the name on the home page.
+headline: >-
+  Astrophysicist turned data scientist. I build GenAI, NLP and computer-vision
+  solutions, and explain them to people who don't live in notebooks.
+
+# Longer "About me" text (Markdown).
+about: |
+  I spent six years analysing X-ray and optical spectra of supermassive black holes
+  before moving into industry. Today I’m a senior data science consultant at SDG
+  Group, where I develop Data Science and AI solutions for compaien and take on
+  technical guidance and AI lead tasks. Among the projects I've been involved in, I’ve
+  built RAG chatbots used in production, generative-AI assistants for logistics
+  planning, computer-vision defect detection and statistical studies for clients
+  in banking, life sciences, insurance, food and energy.
+
+  That scientific background still shapes how I work: I care about getting the
+  question right, measuring things honestly and communicating results succinctly to
+  non-technical audiences. I’m a curious, fast learner and I enjoy mentoring juniors
+  (I’ve mentored graduates in data science and computer vision and directed a Bachelor's thesis).
+
+# Short facts shown as a strip on the home page.
+facts:
+  - value: PhD
+    label: Astrophysics, cum laude
+  - value: "5"
+    label: Refereed papers
+  - value: Databricks
+    label: Certified GenAI Engineer
+  - value: Azure
+    label: Fundamentals Certified
+
+# Areas shown as tags next to the About text.
+focus:
+  - Generative AI & RAG
+  - NLP
+  - Computer vision
+  - Statistics
+  - ML deployment
+  - Scientific data analysis
+
+links:
+  - name:  Email
+    icon:  mail
+    url:   mailto:ignacio@ordovas-pascual.eu
+    label: ignacio@ordovas-pascual.eu
+  - name:  LinkedIn
+    icon:  linkedin
+    url:   https://www.linkedin.com/in/ordovaspascual
+    label: in/ordovaspascual
+  - name:  GitHub
+    icon:  github
+    url:   https://github.com/ordovas
+    label: github.com/ordovas
+  - name:  Publications (ADS)
+    icon:  book
+    url:   https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-1993-0334&sort=date%20desc%2C%20bibcode%20desc&p_=0
+    label: NASA ADS

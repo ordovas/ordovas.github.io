@@ -1,0 +1,13 @@
+{%- assign pub = include.pub -%}
+<li class="pub">
+  <p class="pub-title">{{ pub.title }}</p>
+  <p class="pub-meta">
+    {{ pub.authors | replace: "Ordovás-Pascual, I.", "<strong>Ordovás-Pascual, I.</strong>" }}
+    · <em>{{ pub.venue }}</em>, {{ pub.year }}
+  </p>
+  <p class="pub-links">
+    {%- for l in pub.links %}
+    <a href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}
+    {%- endfor %}
+  </p>
+</li>

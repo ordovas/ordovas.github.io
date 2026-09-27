@@ -1,0 +1,49 @@
+- school:  University of Cantabria
+  url:     https://web.unican.es/en/
+  logo:    /assets/img/cv/logoUC.png
+  degree:  PhD in Science and Technology, cum laude
+  start:   Jan 2014
+  end:     Dec 2019
+  details: >-
+    Thesis *A multifrequency view of Active Galactic Nuclei*, supervised by
+    [Silvia Mateos](https://ifca.unican.es/en-us/member?exp=56) and
+    [Francisco J. Carrera](https://ifca.unican.es/en-us/member?exp=20).
+    I studied the relation between UV/optical extinction and X-ray absorption in
+    type-1 AGN, finding that the two are not correlated and that both relate to the
+    optical sub-classification. [Summary](/astro/agnphd/) ·
+    [PDF](https://repositorio.unican.es/xmlui/bitstream/handle/10902/18024/Tesis%20IOP.pdf?sequence=1&isAllowed=y) ·
+    [UCrea](http://hdl.handle.net/10902/18024)
+
+- school:  Ironhack
+  url:     https://www.ironhack.com/
+  logo:    /assets/img/cv/ironhack.png
+  degree:  Data Analytics Bootcamp
+  start:   Oct 2020
+  end:     Dec 2020
+  details: >-
+    Advanced Python, SQL and MongoDB, statistics, supervised and unsupervised ML
+    with scikit-learn, neural networks with TensorFlow/Keras, Flask APIs, web
+    scraping and NLP. Final project selected for the Hackshow.
+    [See the projects](/portfolio/ironhack/).
+
+- school:  University of La Laguna
+  url:     https://www.ull.es/en/
+  logo:    /assets/img/cv/logoULL.png
+  degree:  Master's Degree in Astrophysics
+  start:   Sep 2012
+  end:     Jul 2013
+  details: >-
+    Specialisation in Computation & Theory and Technology & Instrumentation.
+    My first machine-learning project: a single-pass k-means that updates centroids
+    on the fly, 20–40% faster than classic k-means on 20,000 galaxy spectra with
+    equivalent classifications
+    ([Ordovás-Pascual & Sánchez Almeida 2014](https://www.aanda.org/articles/aa/full_html/2014/05/aa23806-14/aa23806-14.html)).
+
+- school:  Complutense University of Madrid & University of La Laguna
+  logo:    /assets/img/cv/logoULL.png
+  degree:  Bachelor's Degree in Physics
+  start:   Sep 2005
+  end:     Sep 2012
+  details: >-
+    Started in Madrid and finished in the Canary Islands with a specialisation in
+    astrophysics.

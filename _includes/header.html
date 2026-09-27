@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ site.data.profile.photo | relative_url }}" alt="" width="32" height="32">
+      <span>{{ site.data.profile.name }}</span>
+    </a>
+    <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+      {% include icon.html name="menu" %}
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      {%- for item in site.nav %}
+      {%- assign current = false %}
+      {%- if page.url == item.url or page.url contains item.url %}{% assign current = true %}{% endif %}
+      <a href="{{ item.url | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {%- endfor %}
+      <button class="icon-btn theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span class="when-light">{% include icon.html name="moon" %}</span>
+        <span class="when-dark">{% include icon.html name="sun" %}</span>
+      </button>
+    </nav>
+  </div>
+</header>
