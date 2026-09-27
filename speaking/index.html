@@ -1,0 +1,43 @@
+---
+layout: default
+title: Speaking
+description: "Talks by Ignacio Ordovás Pascual: generative AI and data science, astrophysics research conferences and public outreach."
+permalink: /speaking/
+---
+{%- assign d = site.data.talks -%}
+{%- assign featured = d.talks | where: "area", "outreach" | first -%}
+
+<article class="wrap page speaking">
+  <header class="page-header">
+    <p class="eyebrow">Talks, seminars &amp; outreach</p>
+    <h1>Speaking</h1>
+    <p class="lead">From astronomy to AI, and public talks for anyone curious about the sky.</p>
+  </header>
+
+  {%- if featured.images %}
+  <section class="feature" aria-labelledby="latest-talk">
+    <div class="feature-photos" data-gallery>
+      {%- for img in featured.images limit: 2 %}
+      <a href="{{ img.src | relative_url }}"><img src="{{ img.src | relative_url }}" alt="{{ img.alt }}" loading="lazy"></a>
+      {%- endfor %}
+    </div>
+    <div class="feature-text">
+      <p class="card-kind">Latest · {{ featured.kind }} · {{ featured.date }}</p>
+      <h2 id="latest-talk">Total solar eclipse in Alustante</h2>
+      <p>On 12 August 2026 mainland Spain saw its first total solar eclipse in over a century. I gave a popular science talk about the Sun and eclipses and helped with the public activities organised by the Luz Cero Astronomical Association and the Hontanar cultural association in Alustante (Guadalajara).</p>
+    </div>
+  </section>
+  {%- endif %}
+
+  {%- for a in d.areas %}
+  {%- assign items = d.talks | where: "area", a[0] %}
+  {%- if items.size > 0 %}
+  <section class="talk-group" id="{{ a[0] }}">
+    <h2 class="section-title">{{ a[1] }}</h2>
+    <ol class="talks">
+      {%- for t in items %}{% include talk.html talk=t thumbs=true %}{% endfor %}
+    </ol>
+  </section>
+  {%- endif %}
+  {%- endfor %}
+</article>

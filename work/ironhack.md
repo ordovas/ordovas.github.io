@@ -1,15 +1,21 @@
 ---
 title: Ironhack bootcamp projects
-eyebrow: Projects
+eyebrow: Work · Learning archive
 lead: The projects I built during the Ironhack Data Analytics bootcamp (Oct–Dec 2020).
 description: Ironhack Data Analytics bootcamp projects by Ignacio Ordovás Pascual.
 banner: /assets/img/intro/collage_ds.jpg
-permalink: /portfolio/ironhack/
+permalink: /work/ironhack/
 redirect_from:
+  - /portfolio/ironhack/
   - /portfolio/ironhack.html
 ---
 ### [Dice Scores Recognition in image/video](https://github.com/ordovas/dice-scores-recognition)
 Deep learning application to recognize dice roll scores in image or live video using convolutional neural networks. This was the final project of the IronHack Data Analytics bootcamp and was selected to participate in the Hackshow.
+
+<figure>
+  <a href="{{ '/assets/img/talks/ironhack-hackshow.jpg' | relative_url }}"><img src="{{ '/assets/img/talks/ironhack-hackshow.jpg' | relative_url }}" alt="Live demo of the final project: a webcam window detects two dice, labels them 6 and 1 and shows a total score of 7 points" width="1600" height="739" loading="lazy"></a>
+  <figcaption>Presenting the final project live (January 2021): the webcam detects each die and adds up the score.</figcaption>
+</figure>
 
 ---
 

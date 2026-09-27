@@ -1,0 +1,32 @@
+---
+layout: default
+title: Writing
+description: Articles and technical notes by Ignacio Ordovás Pascual on generative AI, data science and astrophysics.
+permalink: /writing/
+---
+<article class="wrap page">
+  <header class="page-header">
+    <p class="eyebrow">Articles &amp; notes</p>
+    <h1>Writing</h1>
+    <p class="lead">Articles and short technical notes on generative AI, data science and, now and then, astrophysics.</p>
+  </header>
+
+  {%- if site.posts.size > 0 %}
+  <ol class="posts">
+    {%- for post in site.posts %}
+    <li class="post-item">
+      <time class="when" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+      <div>
+        <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.lead | default: post.excerpt | strip_html | truncatewords: 40 }}</p>
+        {%- if post.external_site %}<p class="post-meta">Published on {{ post.external_site }}</p>{% endif %}
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- else %}
+  <p>Nothing here yet.</p>
+  {%- endif %}
+
+  <p class="note">More articles on <a href="https://medium.com/@ordovaspascual">my Medium profile</a>.</p>
+</article>

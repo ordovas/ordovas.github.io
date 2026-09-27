@@ -20,8 +20,12 @@ author:
 nav:
   - title: CV
     url:   /cv/
-  - title: Projects
-    url:   /portfolio/
+  - title: Work
+    url:   /work/
+  - title: Writing
+    url:   /writing/
+  - title: Speaking
+    url:   /speaking/
   - title: Research
     url:   /astro/
   - title: Beyond work
@@ -33,12 +37,20 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
+# Blog posts live in _posts/ and are listed on /writing/.
+
 defaults:
   - scope:
       path: ""
     values:
       layout: page
       image: /assets/img/og-card.jpg   # preview image for Google, LinkedIn, WhatsApp...
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /writing/:year/:title/
 
 # Search engine ownership checks. Paste the codes from Google Search Console /
 # Bing Webmaster Tools here (see README), then uncomment.

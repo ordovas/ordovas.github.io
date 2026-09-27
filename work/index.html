@@ -1,0 +1,84 @@
+---
+layout: default
+title: Work
+description: "Data science work of Ignacio Ordovás Pascual: anonymised GenAI, NLP and computer-vision case studies, published work and personal projects."
+permalink: /work/
+redirect_from:
+  - /portfolio/
+---
+{%- assign w = site.data.projects -%}
+
+<article class="wrap page work">
+  <header class="page-header">
+    <p class="eyebrow">Data science portfolio</p>
+    <h1>Work</h1>
+    <p class="lead">Case studies from consulting, work that was made public, and things I've built on my own to learn.</p>
+  </header>
+
+  {%- comment -%} Filter chips: hidden until main.js enables them. {%- endcomment %}
+  <div class="filters" data-filters hidden>
+    <span class="filters-label" id="filters-label">Filter</span>
+    <div class="chips" role="group" aria-labelledby="filters-label">
+      <button type="button" class="chip" data-filter="" aria-pressed="true">All</button>
+      {%- for f in w.filters %}
+      <button type="button" class="chip" data-filter="{{ f | slugify }}" aria-pressed="false">{{ f }}</button>
+      {%- endfor %}
+    </div>
+  </div>
+
+  {%- for s in w.sections %}
+  <section class="work-section" id="{{ s.id }}" data-work-section>
+    <div class="section-head">
+      <h2 class="section-title">{{ s.title }}</h2>
+      {%- if s.more %}
+      <a class="more" href="{{ s.more.url | relative_url }}">{{ s.more.label }} {% include icon.html name="arrow" %}</a>
+      {%- endif %}
+    </div>
+    {%- if s.intro %}<p class="section-intro">{{ s.intro }}</p>{% endif %}
+
+    {%- if s.compact %}
+    <ul class="archive">
+      {%- for i in s.items %}
+      <li data-tags="{% for t in i.tags %}{{ t | slugify }} {% endfor %}">
+        <span class="archive-title">{{ i.title }}</span>
+        {%- if i.kind %}<span class="archive-kind">{{ i.kind }}</span>{% endif %}
+        {%- for l in i.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+      </li>
+      {%- endfor %}
+    </ul>
+
+    {%- else %}
+    <div class="cards cards-wide">
+      {%- for i in s.items %}
+      <article class="card{% if i.problem %} case{% endif %}" data-tags="{% for t in i.tags %}{{ t | slugify }} {% endfor %}">
+        <p class="card-kind">{% if i.sector %}{{ i.sector }}{% else %}{{ i.kind }}{% endif %}{% if i.years %} · {{ i.years }}{% elsif i.year %} · {{ i.year }}{% endif %}</p>
+        <h3>{{ i.title }}</h3>
+        {%- if i.problem %}
+        <dl class="case-steps">
+          <dt>Problem</dt><dd>{{ i.problem }}</dd>
+          <dt>Approach</dt><dd>{{ i.approach }}</dd>
+          {%- if i.outcome %}<dt>Outcome</dt><dd>{{ i.outcome }}</dd>{% endif %}
+        </dl>
+        {%- else %}
+        <p>{{ i.text }}</p>
+        {%- endif %}
+        {%- if i.tags %}
+        <ul class="tags tags-sm">{% for t in i.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+        {%- endif %}
+        {%- if i.links %}
+        <p class="card-links">
+          {%- for l in i.links %}
+          {%- if l.url contains '://' %}<a href="{{ l.url }}">{{ l.label }} {% include icon.html name="external" %}</a>
+          {%- else %}<a href="{{ l.url | relative_url }}">{{ l.label }} {% include icon.html name="arrow" %}</a>{% endif %}
+          {%- endfor %}
+        </p>
+        {%- endif %}
+      </article>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+  </section>
+  {%- endfor %}
+
+  <p class="note">More exercises, learning notebooks and experiments are on <a href="https://github.com/ordovas/">my GitHub profile</a>.</p>
+</article>

@@ -1,57 +1,121 @@
-# Talks and posters (academic and outreach), most recent first. Shown on the Research page.
-# kind: Invited seminar | Talk | Poster | Outreach talk
+# Talks, posters and presentations, most recent first. Shown on /speaking/
+# (grouped by `area`); the Research page lists the `research` ones.
+# kind:   Invited talk | Invited seminar | Talk | Poster | Outreach talk | Project demo | Thesis defence
+# area:   ai | research | outreach
+# Optional: `links` (label + url) and `images` (src + alt; the first one is the
+# thumbnail; `focus` is the CSS object-position to keep in view when cropped).
 
-- date:  Aug 2026
-  kind:  Outreach talk
-  title: Popular science talk ahead of the 12 August 2026 total solar eclipse and astronomical activities
-  event: Eclipse activities by the Luz Cero Astronomical Association and the Hontanar cultural association at Alustante (Guadalajara)
+areas:
+  ai:       Data science & AI
+  research: Astrophysics research
+  outreach: Outreach
 
-- date:  Jul 2019
-  kind:  Talk
-  title: A thorough investigation on the classification of AGN and its X-ray/optical obscuration
-  event: Spanish Meeting of AGN Research
+talks:
+  - date:  Aug 2026
+    kind:  Outreach talk
+    area:  outreach
+    title: Popular science talk ahead of the 12 August 2026 total solar eclipse and astronomical activities
+    event: Eclipse activities by the Luz Cero Astronomical Association and the Hontanar cultural association at Alustante (Guadalajara)
+    images:
+      - src: /assets/img/talks/eclipse-talk.jpg
+        alt: Ignacio giving a talk about the Sun in a stone hall, with a slide showing the Sun's internal structure
+      - src: /assets/img/talks/eclipse-audience.jpg
+        alt: A packed audience applauding in the stone hall at Alustante
 
-- date:  Jul 2018
-  kind:  Poster
-  title: Dust-to-gas ratio in a complete sample of type-1 AGN
-  event: XIII Scientific Meeting of the Spanish Astronomical Society (SEA), Salamanca
+  - date:  Mar 2024
+    kind:  Invited talk
+    area:  ai
+    title: How large language models perform on mathematical operations
+    event: International Conference on FOSS Approaches towards Computational Intelligence and Language Technology (FOSS-CILT '24), ICFOSS, Thiruvananthapuram (India)
+    links:
+      - label: Watch the talk
+        url:   https://www.youtube.com/live/KaiTZIsTBYk?si=fusV0_Osfi5NkrTR&t=4042
+      - label: Conference
+        url:   https://fosscilt.icfoss.org/
 
-- date:  Oct 2017
-  kind:  Talk
-  title: Dust-to-gas ratio in a complete sample of AGN
-  event: Spanish X-ray Astronomy meeting, Granada
+  - date:  Jan 2021
+    kind:  Project demo
+    area:  ai
+    title: Dice score recognition in images and live video
+    event: Ironhack Data Analytics bootcamp, final project (selected for the Hackshow)
+    links:
+      - label: Project
+        url:   /work/ironhack/
+      - label: Code
+        url:   https://github.com/ordovas/dice-scores-recognition
+    images:
+      - src: /assets/img/talks/ironhack-hackshow.jpg
+        alt: Live demo where a webcam window detects two dice and shows a total score of 7 points
+        focus: 18% 40%
 
-- date:  Jul 2016
-  kind:  Poster
-  title: On the relation between X-ray absorption and optical extinction in AGN
-  event: XII Scientific Meeting of the Spanish Astronomical Society (SEA), Bilbao
+  - date:  Jul 2019
+    kind:  Talk
+    area:  research
+    title: A thorough investigation on the classification of AGN and its X-ray/optical obscuration
+    event: Spanish Meeting of AGN Research
 
-- date:  Jun 2016
-  kind:  Poster
-  title: On the relation between X-ray absorption and optical extinction in AGN
-  event: "AGN: What's in a name?, Garching (Germany)"
+  - date:  Jul 2018
+    kind:  Poster
+    area:  research
+    title: Dust-to-gas ratio in a complete sample of type-1 AGN
+    event: XIII Scientific Meeting of the Spanish Astronomical Society (SEA), Salamanca
 
-- date:  Mar 2016
-  kind:  Talk
-  title: Comparison of the optical and X-ray obscuration in AGN
-  event: XXIX XMM-Newton Consortium Meeting, Santander
+  - date:  Oct 2017
+    kind:  Talk
+    area:  research
+    title: Dust-to-gas ratio in a complete sample of AGN
+    event: Spanish X-ray Astronomy meeting, Granada
 
-- date:  Sep 2015
-  kind:  Invited seminar
-  title: Discordant optical and X-ray classification of AGN
-  event: Brera Astronomical Observatory, Milan (Italy)
+  - date:  Jul 2016
+    kind:  Poster
+    area:  research
+    title: On the relation between X-ray absorption and optical extinction in AGN
+    event: XII Scientific Meeting of the Spanish Astronomical Society (SEA), Bilbao
 
-- date:  Jun 2015
-  kind:  Talk
-  title: Discordant optical and X-ray classification of AGN
-  event: Spanish X-ray Astronomy meeting, Santander
+  - date:  Jun 2016
+    kind:  Poster
+    area:  research
+    title: On the relation between X-ray absorption and optical extinction in AGN
+    event: "AGN: What's in a name?, Garching (Germany)"
 
-- date:  Sep 2014
-  kind:  Talk
-  title: Discordant optical and X-ray classification of AGN
-  event: XI Scientific Meeting of the Spanish Astronomical Society (SEA), Teruel
+  - date:  Mar 2016
+    kind:  Talk
+    area:  research
+    title: Comparison of the optical and X-ray obscuration in AGN
+    event: XXIX XMM-Newton Consortium Meeting, Santander
 
-- date:  Jul 2013
-  kind:  Invited seminar
-  title: "Large databases in astronomy: searching for new automatic analysis methods"
-  event: Starburst research group seminar, Instituto de Astrofísica de Canarias (IAC)
+  - date:  Sep 2015
+    kind:  Invited seminar
+    area:  research
+    title: Discordant optical and X-ray classification of AGN
+    event: Brera Astronomical Observatory, Milan (Italy)
+
+  - date:  Jun 2015
+    kind:  Talk
+    area:  research
+    title: Discordant optical and X-ray classification of AGN
+    event: Spanish X-ray Astronomy meeting, Santander
+
+  - date:  Sep 2014
+    kind:  Talk
+    area:  research
+    title: Discordant optical and X-ray classification of AGN
+    event: XI Scientific Meeting of the Spanish Astronomical Society (SEA), Teruel
+
+  - date:  Jul 2013
+    kind:  Invited seminar
+    area:  research
+    title: "Large databases in astronomy: searching for new automatic analysis methods"
+    event: Starburst research group seminar, Instituto de Astrofísica de Canarias (IAC)
+
+  - date:  Jul 2013
+    kind:  Thesis defence
+    area:  research
+    title: "Master's thesis: a fast, single-pass k-means for classifying galaxy spectra"
+    event: Master's Degree in Astrophysics, University of La Laguna
+    links:
+      - label: Resulting paper
+        url:   https://ui.adsabs.harvard.edu/abs/2014A%26A...565A..53O/abstract
+    images:
+      - src: /assets/img/talks/masters-defence.jpg
+        alt: Ignacio presenting in front of a slide titled "Equivalencia de la clasificación", comparing two clusterings

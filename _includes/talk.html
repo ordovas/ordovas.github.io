@@ -1,0 +1,19 @@
+{%- assign t = include.talk -%}
+{%- assign thumb = t.images | first -%}
+<li class="talk{% if thumb and include.thumbs %} has-thumb{% endif %}">
+  <span class="when">{{ t.date }}</span>
+  <div>
+    <p class="talk-title">{{ t.title }}</p>
+    <p class="talk-meta"><span class="talk-kind">{{ t.kind }}</span> · {{ t.event }}</p>
+    {%- if t.links %}
+    <p class="talk-links">
+      {%- for l in t.links %}
+      <a href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}
+      {%- endfor %}
+    </p>
+    {%- endif %}
+  </div>
+  {%- if thumb and include.thumbs %}
+  <a class="talk-thumb" href="{{ thumb.src | relative_url }}"><img src="{{ thumb.src | relative_url }}" alt="{{ thumb.alt }}" loading="lazy"{% if thumb.focus %} style="object-position: {{ thumb.focus }}"{% endif %}></a>
+  {%- endif %}
+</li>

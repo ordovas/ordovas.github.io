@@ -8,8 +8,9 @@ cv_pdf:   /files/CV_iop_eng.pdf
 
 # One-liner under the name on the home page.
 headline: >-
-  Astrophysicist turned data scientist. I build GenAI, NLP and computer-vision
-  solutions, and explain them to people who don't live in notebooks.
+  Astrophysicist turned data scientist. 
+  I use AI and data science to solve real-world problems, with the curiosity and rigour I learned from science. 
+
 
 # Longer "About me" text (Markdown).
 about: |
@@ -25,17 +26,6 @@ about: |
   question right, measuring things honestly and communicating results succinctly to
   non-technical audiences. I’m a curious, fast learner and I enjoy mentoring juniors
   (I’ve mentored graduates in data science and computer vision and directed a Bachelor's thesis).
-
-# Short facts shown as a strip on the home page.
-facts:
-  - value: PhD
-    label: Astrophysics, cum laude
-  - value: "5"
-    label: Refereed papers
-  - value: Databricks
-    label: Certified GenAI Engineer
-  - value: Azure
-    label: Fundamentals Certified
 
 # Areas shown as tags next to the About text.
 focus:
@@ -63,9 +53,14 @@ links:
     icon:  book
     url:   https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-1993-0334&sort=date%20desc%2C%20bibcode%20desc&p_=0
     label: NASA ADS
+  - name:  Medium
+    icon:  pen
+    url:   https://medium.com/@ordovaspascual
+    label: medium.com/@ordovaspascual
 
 # Profiles that are "the same person" for search engines (structured data only).
 same_as:
   - https://www.linkedin.com/in/ordovaspascual
   - https://github.com/ordovas
+  - https://medium.com/@ordovaspascual
   - https://orcid.org/0000-0002-1993-0334

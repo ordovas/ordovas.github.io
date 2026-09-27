@@ -26,7 +26,7 @@ milestones:
     kind: talk
     text: "Invited seminar at the IAC"
     detail: "“Large databases in astronomy: searching for new automatic analysis methods”, Starburst group seminar, Instituto de Astrofísica de Canarias."
-    url:    "/astro/#talks-and-posters"
+    url:    "/speaking/#research"
     link:   "All talks"
 
   - at:   2014.0
@@ -40,7 +40,7 @@ milestones:
   - at:   2014.37
     date: May 2014
     kind: paper
-    text: "First paper, in A&A"
+    text: "First paper, in A&A (Unsupervised Machine Learning - Clustering)"
     detail: "“A fast version of the k-means classification algorithm for astronomical applications”. Ordovás-Pascual & Sánchez Almeida, A&A 565, A53."
     url:    "https://ui.adsabs.harvard.edu/abs/2014A%26A...565A..53O/abstract"
     link:   "Read paper"
@@ -49,7 +49,7 @@ milestones:
     date: Sep 2015
     kind: career
     text: "Research stay in Milan"
-    detail: "Visiting researcher at the Brera Astronomical Observatory (Sep–Oct 2015), supervised by Alessandro Caccianiga."
+    detail: "Visiting researcher at the Brera Astronomical Observatory (Sep–Oct 2015), supervised by Alessandro Caccianiga and team."
     url:    "/astro/#research-stays"
     link:   "Research stays"
 
@@ -57,7 +57,7 @@ milestones:
     date: Sep 2016
     kind: career
     text: "Research stay in Athens"
-    detail: "Visiting researcher at the National Observatory of Athens (Sep–Oct 2016), supervised by Ioannis Georgantopoulos."
+    detail: "Visiting researcher at the National Observatory of Athens (Sep–Oct 2016), supervised by Ioannis Georgantopoulos and team."
     url:    "/astro/#research-stays"
     link:   "Research stays"
 
@@ -72,7 +72,7 @@ milestones:
   - at:   2017.28
     date: Apr 2017
     kind: paper
-    text: "First-author paper in MNRAS"
+    text: "First-author paper in MNRAS (BUXS AGN)"
     detail: "“AGNs with discordant optical and X-ray classification are not a physical family: diverse origin in two AGNs”. Ordovás-Pascual et al., MNRAS 469, 693."
     url:    "https://ui.adsabs.harvard.edu/abs/2017MNRAS.469..693O/abstract"
     link:   "Read paper"
@@ -96,16 +96,16 @@ milestones:
   - at:   2020.92
     date: Dec 2020
     kind: career
-    text: "Ironhack bootcamp"
+    text: "Ironhack Data Analytics bootcamp"
     detail: "Data Analytics bootcamp (Oct–Dec 2020). Final project on dice recognition with CNNs, selected for the Hackshow."
-    url:    "/portfolio/ironhack/"
+    url:    "/work/ironhack/"
     link:   "Projects"
 
   - at:   2021.33
     date: May 2021
     kind: career
     text: "Joined Cognizant"
-    detail: "Associate Data Scientist at Cognizant Technology Solutions, Madrid: GenAI, NLP, computer vision and statistics for clients."
+    detail: "Associate Data Scientist at Cognizant Technology Solutions: GenAI, NLP, computer vision and statistics for clients."
     url:    "/cv/#experience"
     link:   "See in CV"
 
@@ -145,7 +145,7 @@ milestones:
     date: Sep 2024
     kind: career
     text: "Joined SDG Group"
-    detail: "Senior Consultant, Data Science at SDG Group, Madrid: GenAI solutions for a pharmaceutical company."
+    detail: "Senior Consultant, AI and Data Science at SDG Group: GenAI and NLP for clients."
     url:    "/cv/#experience"
     link:   "See in CV"
 
@@ -161,9 +161,9 @@ milestones:
     date: Aug 2026
     kind: talk
     text: "Eclipse outreach talk"
-    detail: "Outreach talk and public activities with the Luz Cero Astronomical Association for the total solar eclipse of 12 August 2026, Alustante (Guadalajara)."
-    url:    "/astro/#teaching-and-outreach"
-    link:   "Outreach"
+    detail: "Outreach talk and public activities with the Luz Cero Astronomical Association and Hontanar cultural association for the total solar eclipse of 12 August 2026."
+    url:    "/speaking/#outreach"
+    link:   "Photos and talks"
 
   - at:   2026.69
     date: Sep 2026

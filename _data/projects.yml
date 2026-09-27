@@ -1,0 +1,165 @@
+# Work page (/work/). Sections show in this order; items most recent first.
+# `tags` must match names in `filters` (they drive the filter chips).
+# Case studies are anonymised: describe the sector, never the client, and keep
+# to what is already public in the CV.
+
+filters: [GenAI, NLP, Computer vision, Deployment, Data Science]
+
+sections:
+  - id: case-studies
+    title: Case studies
+    intro: >-
+      Some of the client work I've participated in. 
+    items:
+      - title: Grounded content generation for pharma
+        sector: Pharmaceutical company
+        years: 2025–2026
+        tags: [GenAI, NLP, Deployment]
+        problem: >-
+          Teams needed emails, slide decks and medical documents that stay faithful
+          to approved material, plus a research assistant over internal knowledge.
+        approach: >-
+          A research-assistant chatbot and a content generator grounded on approved
+          sources, together with a second solution that reviews the generated content.
+        outcome: User satisfaction around 40% higher than with the previous tools.
+
+      - title: RAG assistant over internal knowledge
+        sector: Banking
+        years: 2024
+        tags: [GenAI, NLP, Deployment]
+        problem: >-
+          Employees had to search scattered internal documentation to answer
+          day-to-day questions.
+        approach: >-
+          A retrieval-augmented chatbot over internal data, iterated in production to
+          improve answer quality.
+        outcome: Adoption grew from 50 to 600 employees.
+
+      - title: Conversational analytics for supply chain
+        sector: Logistics planning
+        years: 2023-2024
+        tags: [GenAI]
+        problem: >-
+          Planners needed quick descriptive analytics over supply-chain data without
+          writing queries.
+        approach: >-
+          A generative-AI chatbot connected to a Neo4j graph database that answers questions
+          with automatic descriptive analytics and plots (PoC).
+        outcome: >-
+          Proof of concept developed ready for further testing and deployment 
+          and to be presented to clients in logistics and supply-chain management.
+
+      - title: Rust detection for asset maintenance
+        sector: Energy
+        years: 2021
+        tags: [Computer vision]
+        problem: >-
+          Experts reviewed drone footage of petrol tanks by hand: a one-day
+          inspection could take three to four days to report.
+        approach: >-
+          A U-Net segmentation model that finds rust down to pixel level, served
+          through an API that analyses the uploaded drone video.
+        outcome: >-
+          About 95% accuracy, turning days of manual review into near-real-time
+          reports, as part of a solution aiming to cut inspection costs by 50%.
+        links:
+          - label: Blog post
+            url:   https://www.cognizant.com/se/en/insights/blog/articles/from-personnel-based-operations-to-ai-driven-automated-maintenance
+
+
+
+  - id: public-work
+    title: Published work
+    intro: Work that was made public by clients, employers or partners.
+    items:
+      - title: Injecting company jargon for generative AI
+        kind: Article + code
+        year: 2026
+        tags: [GenAI, NLP]
+        text: >-
+          How to inject company-specific vocabulary from a YAML file into LLM prompts,
+          using an app that turns natural-language requests into arXiv API queries,
+          and how well it works across model sizes.
+        links:
+          - label: Summary
+            url:   /writing/2026/injecting-company-jargon/
+          - label: Code
+            url:   https://github.com/ordovas/context-inject-arxiv
+
+      - title: Retail self-checkout with Azure Percept
+        kind: Case study
+        year: 2022
+        tags: [Computer vision, Deployment]
+        text: >-
+          A general fruit-detection model on Microsoft's Azure Percept edge-AI device,
+          using Custom Vision and IoT Hub, built during a Microsoft bootcamp.
+        links:
+          - label: Blog post
+            url:   https://techcommunity.microsoft.com/blog/iotblog/retail-self-checkout-object-detection-solution-using-azure-percept/3072914
+          - label: Video
+            url:   https://www.youtube.com/watch?v=juJ8_O-wIwA
+
+  - id: personal
+    title: Personal projects
+    intro: Things I built on my own to learn.
+    items:
+      - title: Japanese video-game sales
+        kind: Project
+        tags: [Data Science]
+        text: >-
+          Web scraping and regular expressions to mine Japanese video-game hardware
+          and software sales.
+        links:
+          - label: Code
+            url:   https://github.com/ordovas/vg_jp_sales
+
+      - title: Amazon book ratings from review text
+        kind: Project
+        tags: [NLP, Data Science]
+        text: Predicting Amazon book ratings from the review text alone.
+        links:
+          - label: Code
+            url:   https://github.com/ordovas/amazon_books_reviews
+
+  - id: archive
+    title: Learning archive
+    intro: >-
+      Projects from the Ironhack Data Analytics bootcamp (Oct–Dec 2020), where I
+      moved from astrophysics into data science.
+    more:
+      label: Read the project descriptions
+      url:   /work/ironhack/
+    compact: true
+    items:
+      - title: Dice score recognition in images and live video
+        kind: Final project, selected for the Hackshow
+        tags: [Computer vision]
+        links:
+          - label: Code
+            url:   https://github.com/ordovas/dice-scores-recognition
+      - title: "Kaggle competition: predicting diamond prices"
+        links:
+          - label: Code
+            url:   https://github.com/ordovas/kaggle-diamonds
+      - title: Chat API and text sentiment analysis
+        tags: [NLP, Deployment]
+        links:
+          - label: Code
+            url:   https://github.com/ordovas/chat-api
+      - title: "Geospatial analysis: choosing the best location for a gaming company"
+        links:
+          - label: Code
+            url:   https://github.com/ordovas/geospatial-data-project
+      - title: The 500 best albums of all time, with the Spotify API
+        links:
+          - label: Code
+            url:   https://github.com/ordovas/pipelines-project
+      - title: A word-frequency analysis of shark attacks
+        tags: [NLP]
+        links:
+          - label: Code
+            url:   https://github.com/ordovas/pandas-project
+      - title: Hangman in Python (moddable)
+        links:
+          - label: Code
+            url:   https://github.com/ordovas/mini-project

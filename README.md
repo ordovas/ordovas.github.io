@@ -11,15 +11,25 @@ Almost everything lives in `_data/`:
 
 | File | What it controls |
 | --- | --- |
-| `profile.yml` | Name, role, headline, About text, quick facts, links |
+| `profile.yml` | Name, role, headline, About text, links |
 | `experience.yml` | Jobs (home page summary + full CV bullets) |
 | `education.yml` | Degrees and bootcamp |
 | `skills.yml` | Skills, certifications, courses |
 | `highlights.yml` | "Selected work" cards on the home page |
+| `projects.yml` | Work page: case studies, published work, personal projects, archive, filter tags |
+| `talks.yml` | Speaking page (grouped by area; research talks also on the Research page) |
+| `timeline.yml` | Career spectrum on the home page |
 | `publications.yml` | Papers (`featured: true` shows them on the home page) |
 
-Pages: `index.html` (home), `cv/` (printable CV), `portfolio/`, `astro/`,
-`miscellaneous/`. Styles are in `assets/css/main.css`.
+Pages: `index.html` (home), `cv/` (printable CV), `work/`, `writing/`,
+`speaking/`, `astro/`, `miscellaneous/`. Styles are in `assets/css/main.css`.
+
+Posts for the Writing page go in `_posts/` as `YYYY-MM-DD-slug.md` (published at
+`/writing/YYYY/slug/`). For something published
+elsewhere, add `external_url` and `external_site` to show a link to the original.
+
+Images go in `assets/img/` (not `_site/`, which is rebuilt from scratch on every
+build). Resize photos to about 1600 px wide before adding them.
 
 Remember to replace `files/CV_iop_eng.pdf` when the CV changes.
 

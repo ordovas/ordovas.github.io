@@ -5,7 +5,6 @@ lead: >-
   Active Galactic Nuclei, k-means for spectra and a supernova. My contributions
   from my years as an astrophysicist.
 description: PhD thesis, peer-reviewed papers and other astrophysics contributions of Ignacio Ordovás Pascual.
-banner: /assets/img/intro/collage_astro.jpg
 permalink: /astro/
 ---
 
@@ -41,18 +40,11 @@ At the NEON Observing School 2015 in Asiago (Italy), I took part in an observing
 
 ## Talks and posters
 
-I presented my research at conferences and seminars, including two invited seminars, and I still give outreach talks.
+I presented my research at conferences and seminars, including two invited seminars. All my talks, including data science and outreach, are on the [Speaking page](/speaking/).
 
+{% assign research_talks = site.data.talks.talks | where: "area", "research" %}
 <ol class="talks">
-{%- for t in site.data.talks %}
-  <li>
-    <span class="when">{{ t.date }}</span>
-    <div>
-      <p class="talk-title">{{ t.title }}</p>
-      <p class="talk-meta"><span class="talk-kind">{{ t.kind }}</span> · {{ t.event }}</p>
-    </div>
-  </li>
-{%- endfor %}
+{%- for t in research_talks %}{% include talk.html talk=t %}{% endfor %}
 </ol>
 
 ## Research stays
@@ -69,4 +61,4 @@ I taught 35 hours of astronomy lab sessions for the Physics degree at the Univer
 
 During my PhD I also prepared and took part in outreach activities organised by the Institute of Physics of Cantabria: public astronomical observations, popular science talks and visits to the institute, among others.
 
-More recently, in August 2026 I gave an outreach talk and helped with the public activities organised by the Luz Cero Astronomical Association in Alustante (Guadalajara) for the total solar eclipse of 12 August 2026, the first total eclipse visible from mainland Spain in over a century.
+More recently, in August 2026 I gave an outreach talk and helped with the public activities organised by the Luz Cero Astronomical Association in Alustante (Guadalajara) for the total solar eclipse of 12 August 2026, the first total eclipse visible from mainland Spain in over a century. [Photos on the Speaking page](/speaking/#outreach).

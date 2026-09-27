@@ -22,6 +22,81 @@
     });
   }
 
+  // Work page: filter chips show only the items tagged with the chosen topic,
+  // and hide sections left empty. Without JS everything is shown.
+  var filters = document.querySelector("[data-filters]");
+  if (filters) {
+    var chips = Array.prototype.slice.call(filters.querySelectorAll(".chip"));
+    var sections = Array.prototype.slice.call(document.querySelectorAll("[data-work-section]"));
+    filters.hidden = false;
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        var tag = chip.dataset.filter;
+        chips.forEach(function (c) { c.setAttribute("aria-pressed", String(c === chip)); });
+        sections.forEach(function (sec) {
+          var shown = 0;
+          sec.querySelectorAll("[data-tags]").forEach(function (item) {
+            var match = !tag || item.dataset.tags.split(" ").indexOf(tag) >= 0;
+            item.hidden = !match;
+            if (match) shown++;
+          });
+          sec.hidden = shown === 0;
+        });
+      });
+    });
+  }
+
+  // Lightbox: links to images open in an overlay instead of leaving the page.
+  // Links inside a [data-gallery] element can be browsed with the arrows.
+  var imgSel = 'a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"], a[href$=".webp"]';
+  var imgLinks = document.querySelectorAll(imgSel);
+  if (imgLinks.length && window.HTMLDialogElement) {
+    var box = document.createElement("dialog");
+    box.className = "lightbox";
+    box.setAttribute("aria-label", "Image viewer");
+    box.innerHTML = '<figure><img alt=""><figcaption></figcaption></figure>' +
+      '<button type="button" class="lb-btn lb-close" aria-label="Close">&times;</button>' +
+      '<button type="button" class="lb-btn lb-prev" aria-label="Previous image">&lsaquo;</button>' +
+      '<button type="button" class="lb-btn lb-next" aria-label="Next image">&rsaquo;</button>';
+    document.body.appendChild(box);
+    var lbImg = box.querySelector("img"), lbCap = box.querySelector("figcaption");
+    var group = [], index = 0;
+
+    var show = function (i) {
+      index = (i + group.length) % group.length;
+      var a = group[index], thumb = a.querySelector("img");
+      lbImg.src = a.href;
+      lbImg.alt = thumb ? thumb.alt : "";
+      lbCap.textContent = a.dataset.caption || lbImg.alt;
+      box.classList.toggle("single", group.length < 2);
+    };
+
+    Array.prototype.forEach.call(imgLinks, function (a) {
+      a.addEventListener("click", function (e) {
+        if (e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey) return;
+        e.preventDefault();
+        var scope = a.closest("[data-gallery]");
+        group = scope ? Array.prototype.slice.call(scope.querySelectorAll(imgSel)) : [a];
+        show(group.indexOf(a));
+        box.showModal();
+      });
+    });
+
+    box.querySelector(".lb-close").addEventListener("click", function () { box.close(); });
+    box.querySelector(".lb-prev").addEventListener("click", function () { show(index - 1); });
+    box.querySelector(".lb-next").addEventListener("click", function () { show(index + 1); });
+    // Clicking the dark area around the image closes it.
+    box.addEventListener("click", function (e) {
+      if (e.target === box || e.target.tagName === "FIGURE") box.close();
+    });
+    box.addEventListener("keydown", function (e) {
+      if (group.length < 2) return;
+      if (e.key === "ArrowRight") show(index + 1);
+      if (e.key === "ArrowLeft") show(index - 1);
+    });
+    box.addEventListener("close", function () { lbImg.removeAttribute("src"); });
+  }
+
   // Career spectrum: hover/tap the bar to select the nearest milestone line,
   // or focus it and use the arrow keys. The caption follows the selected line.
   var career = document.querySelector("[data-career]");
