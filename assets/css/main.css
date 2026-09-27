@@ -111,7 +111,7 @@ strong { font-weight: 600; }
 }
 .header-inner { display: flex; align-items: center; gap: 1rem; min-height: 3.75rem; }
 .brand { display: flex; align-items: center; gap: .6rem; color: var(--text); text-decoration: none; font-weight: 600; margin-right: auto; }
-.brand img { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; clip-path: circle(42.5%); transform: scale(1.15); }
+.brand img { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; }
 .site-nav { display: flex; align-items: center; gap: .25rem; }
 .site-nav a { color: var(--muted); text-decoration: none; padding: .4rem .7rem; border-radius: 8px; font-size: .95rem; font-weight: 500; }
 .site-nav a:hover { color: var(--text); background: var(--surface-2); }
@@ -183,7 +183,7 @@ strong { font-weight: 600; }
    ========================================================================== */
 .hero { position: relative; }
 .hero-inner { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: clamp(1.5rem, 5vw, 3.5rem); padding-block: clamp(3rem, 8vw, 5.5rem) clamp(2.5rem, 6vw, 4rem); }
-.hero-photo { width: clamp(140px, 22vw, 220px); height: auto; aspect-ratio: 1; border-radius: 50%; object-fit: cover; clip-path: circle(42.5%); transform: scale(1.15); }
+.hero-photo { width: clamp(140px, 22vw, 220px); height: auto; aspect-ratio: 1; border-radius: 50%; object-fit: cover; box-shadow: var(--shadow); }
 .hero h1 { font-size: clamp(2.1rem, 5.5vw, 3.4rem); margin-bottom: .35em; }
 .honorific { color: var(--muted); font-weight: 500; }
 .hero .lead { font-size: clamp(1.05rem, 2vw, 1.25rem); color: var(--text); opacity: .85; }
