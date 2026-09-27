@@ -1,11 +1,128 @@
 ---
-layout: blog
-title:  
-description: >
-  The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll.
-last_modified_at: 2018-08-03
-no_link_title: false 
-no_excerpt: false 
-hide_image: false
-cover: true
+layout: default
+body_class: home
+redirect_from:
+  - /about/
 ---
+{%- assign p = site.data.profile -%}
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <img class="hero-photo" src="{{ p.photo | relative_url }}" alt="Portrait of {{ p.name }}" width="220" height="220">
+    <div class="hero-text">
+      <p class="eyebrow">{{ p.role }} · {{ p.company }}</p>
+      <h1>{{ p.name }}<span class="honorific">, {{ p.honorific }}</span></h1>
+      <p class="lead">{{ p.headline }}</p>
+      <p class="location">{% include icon.html name="pin" %} {{ p.location }}</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="{{ '/cv/' | relative_url }}">View CV {% include icon.html name="arrow" %}</a>
+        <a class="btn" href="{{ p.cv_pdf | relative_url }}" download>{% include icon.html name="download" %} Download CV (PDF)</a>
+        {%- for link in p.links limit: 3 %}
+        <a class="btn btn-icon" href="{{ link.url }}" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icon.html name=link.icon %}</a>
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="spectrum" aria-hidden="true"></div>
+</section>
+
+<section class="wrap" aria-label="At a glance">
+  <div class="facts">
+  {%- for f in p.facts %}
+  <div class="fact"><span class="fact-value">{{ f.value }}</span><span class="fact-label">{{ f.label }}</span></div>
+  {%- endfor %}
+  </div>
+</section>
+
+<section class="wrap section" id="about">
+  <h2 class="section-title">About</h2>
+  <div class="split">
+    <div class="prose">{{ p.about | markdownify }}</div>
+    <aside>
+      <h3 class="minor">What I work on</h3>
+      <ul class="tags">
+        {%- for t in p.focus %}<li>{{ t }}</li>{% endfor %}
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="wrap section" id="experience">
+  <div class="section-head">
+    <h2 class="section-title">Experience</h2>
+    <a class="more" href="{{ '/cv/' | relative_url }}#experience">Full CV {% include icon.html name="arrow" %}</a>
+  </div>
+  <ol class="timeline">
+    {%- for job in site.data.experience %}
+    <li class="timeline-item">
+      <img class="logo" src="{{ job.logo | relative_url }}" alt="" width="44" height="44" loading="lazy">
+      <div>
+        <p class="when">{{ job.start }} – {{ job.end }}</p>
+        <h3>{{ job.role }}</h3>
+        <p class="org"><a href="{{ job.url }}">{{ job.company }}</a> · {{ job.location }}</p>
+        <p>{{ job.summary }}</p>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+
+<section class="wrap section" id="highlights">
+  <div class="section-head">
+    <h2 class="section-title">Selected work</h2>
+    <a class="more" href="{{ '/portfolio/' | relative_url }}">All projects {% include icon.html name="arrow" %}</a>
+  </div>
+  <div class="cards">
+    {%- for h in site.data.highlights limit: 4 %}
+    <article class="card">
+      <p class="card-kind">{{ h.kind }}{% if h.year %} · {{ h.year }}{% endif %}</p>
+      <h3>{{ h.title }}</h3>
+      <p>{{ h.text }}</p>
+      {%- if h.links %}
+      <p class="card-links">
+        {%- for l in h.links %}<a href="{{ l.url }}">{{ l.label }} {% include icon.html name="external" %}</a>{% endfor %}
+      </p>
+      {%- endif %}
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="wrap section" id="research">
+  <div class="section-head">
+    <h2 class="section-title">Research</h2>
+    <a class="more" href="{{ '/astro/' | relative_url }}">Astrophysics research {% include icon.html name="arrow" %}</a>
+  </div>
+  <div class="split">
+    <div class="prose">
+      <p>Before data science I was an astrophysicist. My PhD at the Institute of Physics of Cantabria studied how dust and gas hide the light of <strong>Active Galactic Nuclei</strong> (supermassive black holes growing at the centres of galaxies), combining X-ray and optical spectra of hundreds of objects.</p>
+      <p>My first machine-learning work was also in astronomy: a faster, single-pass <strong>k-means</strong> for classifying large sets of galaxy spectra.</p>
+    </div>
+    <ul class="pubs">
+      {%- assign featured = site.data.publications | where: "featured", true %}
+      {%- for pub in featured %}{% include publication.html pub=pub %}{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="wrap section" id="beyond">
+  <a class="beyond" href="{{ '/miscellaneous/' | relative_url }}">
+    <img src="{{ '/assets/img/misc/1.jpg' | relative_url }}" alt="A painted miniature" loading="lazy">
+    <div>
+      <h2 class="section-title">Beyond work</h2>
+      <p>When I'm not working with data, I paint miniatures. Here are a few of the good ones {% include icon.html name="arrow" %}</p>
+    </div>
+  </a>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="wrap">
+    <h2 class="section-title">Get in touch</h2>
+    <p class="lead">Happy to talk about data science, generative AI or black holes.</p>
+    <ul class="contact-list">
+      {%- for link in p.links %}
+      <li><a href="{{ link.url }}">{% include icon.html name=link.icon %}<span>{{ link.label }}</span></a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

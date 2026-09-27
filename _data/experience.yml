@@ -1,0 +1,81 @@
+# Most recent first. `summary` shows on the home page; `groups` on the full CV.
+
+- company:  SDG Group
+  url:      https://www.sdggroup.com/
+  logo:     /assets/img/cv/sdg.jpg
+  role:     Senior Consultant, Data Science
+  start:    Sep 2024
+  end:      Present
+  location: Madrid, Spain
+  summary: >-
+    GenAI solutions for a pharmaceutical company, from a research-assistant chatbot
+    to grounded content generation, raising user satisfaction by around 40% over
+    the previous tools. Technical guidance and team lead tasks.
+  groups:
+    - title: Generative AI for pharma
+      items:
+        - Developed several GenAI solutions for a pharmaceutical company, including a research-assistant chatbot.
+        - Built a content generator that creates assets such as emails, slide decks and medical documents grounded on approved material, together with a solution to review the generated content.
+        - Increased user satisfaction by around 40% with respect to the previous tools.
+    - title: Leadership & internal initiatives
+      items:
+        - Delivered technical guidance, development and team lead tasks.
+        - Supervised a Bachelor's thesis.
+        - Published "[Injecting company jargon for generative AI specific use cases](https://medium.com/sdg-group/injecting-company-jargon-for-generative-ai-specific-use-cases-bde8d198751e)" on SDG Group's Medium publication.
+
+- company:  Cognizant Technology Solutions
+  url:      https://www.cognizant.com/
+  logo:     /assets/img/cv/cognizant.png
+  role:     Associate Data Scientist
+  start:    May 2021
+  end:      Aug 2024
+  location: Madrid, Spain
+  summary: >-
+    Generative AI, NLP, computer vision and statistical projects for clients in
+    life sciences, banking, insurance, food quality control and oil & gas.
+  groups:
+    - title: Generative AI & data science
+      items:
+        - Developed a RAG-based chatbot over internal data, used in production at a banking company. Improved its performance, leading to the user base growing from 50 to 600 employees.
+        - Built a generative-AI chatbot connected to a graph database of supply-chain data, giving users automatic descriptive analytics and plots for logistics planning.
+        - Designed an NLP record-matching use case (sentence similarity, fuzzy string matching).
+        - Worked on optimisation use cases to find the most adequate supply-chain actions.
+    - title: Statistics & science
+      items:
+        - Analysed multidimensional survey data using causal inference, propensity score weighting and bootstrapping.
+        - Updated an AI model that helps clinical-study designers plan procedure schedules, incorporating feedback from users, product owner and experts.
+    - title: Computer vision
+      items:
+        - Built neural-network and ML solutions (autoencoders, clustering, among others) to detect defects in objects of interest.
+        - Created Azure Percept computer-vision models (an IoT device in preview) for object-recognition use cases.
+    - title: Engineering & deployment
+      items:
+        - Deployed AI demos to Azure Web Apps with Docker, Streamlit and Flask APIs; worked with the testing team on API endpoints to productionise solutions.
+        - Designed a GitHub CI/CD pipeline taking input data from S3 and deploying Flask APIs in Docker containers pushed to AWS ECR.
+        - Built MySQL connections in Python, generated reports and configuration files from CSV/XML with Jinja templates, and added logging and unit tests.
+    - title: Mentoring
+      items:
+        - Taught data science and computer vision concepts and applications to graduates.
+
+- company:  Institute of Physics of Cantabria (CSIC-UC)
+  url:      https://ifca.unican.es/en-us
+  logo:     /assets/img/cv/ifca.jpg
+  role:     Researcher (PhD)
+  start:    Jan 2014
+  end:      Dec 2019
+  location: Santander, Spain
+  summary: >-
+    PhD research on the obscuration of Active Galactic Nuclei using X-ray and
+    optical spectra from the Bright Ultra-hard XMM-Newton Survey.
+  groups:
+    - title: Research
+      items:
+        - Analysed a dataset of 258 Active Galactic Nuclei using proprietary observations and public spectra.
+        - Wrote and adapted Python code to detect emission lines and fit models across large spectral datasets.
+        - Planned numerical simulations to measure nuclear obscuration of AGN and its emission properties.
+        - Presented results in 10 talks and posters at international conferences.
+        - Visiting research fellow at the Brera Observatory (Milan) and the National Observatory of Athens.
+    - title: Teaching & outreach
+      items:
+        - Taught astronomy lab sessions for the Physics degree at the University of Cantabria (35 hours, in Spanish and English).
+        - Coordinated outreach activities, including public observations, school talks and visits to IFCA.
