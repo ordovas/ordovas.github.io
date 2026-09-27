@@ -14,14 +14,13 @@ body_class: cv-page
       <h1>{{ p.name }}<span class="honorific">, {{ p.honorific }}</span></h1>
       <p class="lead">{{ p.role }} · {{ p.company }} · {{ p.location }}</p>
       <ul class="cv-contact">
-        {%- for link in p.links limit: 4 %}
+        {%- for link in p.links %}
         <li><a href="{{ link.url }}">{% include icon.html name=link.icon %}<span>{{ link.label }}</span></a></li>
         {%- endfor %}
       </ul>
     </div>
     <div class="cv-actions no-print">
       <a class="btn btn-primary" href="{{ p.cv_pdf | relative_url }}" download>{% include icon.html name="download" %} Download CV (PDF)</a>
-      <button class="btn" type="button" onclick="window.print()">{% include icon.html name="printer" %} Print</button>
     </div>
   </header>
 

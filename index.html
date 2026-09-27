@@ -17,7 +17,7 @@ redirect_from:
       <div class="actions">
         <a class="btn btn-primary" href="{{ '/cv/' | relative_url }}">View CV {% include icon.html name="arrow" %}</a>
         <a class="btn" href="{{ p.cv_pdf | relative_url }}" download>{% include icon.html name="download" %} Download CV (PDF)</a>
-        {%- for link in p.links limit: 3 %}
+        {%- for link in p.links %}
         <a class="btn btn-icon" href="{{ link.url }}" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icon.html name=link.icon %}</a>
         {%- endfor %}
       </div>
