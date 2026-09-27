@@ -13,13 +13,13 @@ permalink: /portfolio/
 
 ### Article: injecting company jargon for generative AI
 
-I wrote [Injecting company jargon for generative AI specific use cases](https://medium.com/sdg-group/injecting-company-jargon-for-generative-ai-specific-use-cases-bde8d198751e) for SDG Group's Medium publication.
+In April 2026 I wrote [Injecting company jargon for Generative AI specific use cases](https://medium.com/sdg-group/injecting-company-jargon-for-generative-ai-specific-use-cases-bde8d198751e) for SDG Group's Medium publication. LLMs don't know a company's internal vocabulary (team names, project phases, acronyms), so they guess and hallucinate. The article shows how to inject that knowledge from a YAML file into the prompt, using an app that turns natural-language requests into arXiv API queries, and compares how well it works across model sizes. The [code is on GitHub](https://github.com/ordovas/context-inject-arxiv).
 
 ## Cognizant highlights
 
-### Invited talk on GenAI at FOSSCILT '24
+### Invited talk on GenAI at FOSS-CILT '24
 
-I was an invited speaker at the [FOSSCILT 2024](https://fosscilt.icfoss.org/) conference, where we presented how large language models perform on mathematical operations. [Watch the talk on YouTube](https://www.youtube.com/live/KaiTZIsTBYk?si=fusV0_Osfi5NkrTR&t=4042).
+In March 2024 I was an invited speaker at the [International Conference on FOSS Approaches towards Computational Intelligence and Language Technology (FOSS-CILT '24)](https://fosscilt.icfoss.org/), held at ICFOSS in Thiruvananthapuram (India), where we presented how large language models perform on mathematical operations. [Watch the talk on YouTube](https://www.youtube.com/live/KaiTZIsTBYk?si=fusV0_Osfi5NkrTR&t=4042).
 
 ### Azure Percept object detection
 
@@ -29,7 +29,7 @@ At Cognizant I worked on many computer-vision case studies, building deep-learni
   <iframe src="https://www.youtube-nocookie.com/embed/juJ8_O-wIwA" title="Azure Percept fruit detection demo" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-We described the approach in [a post on Microsoft's Internet of Things blog](https://techcommunity.microsoft.com/t5/internet-of-things-blog/retail-self-checkout-object-detection-solution-using-azure/ba-p/3072914).
+We described the approach in [a post on Microsoft's Internet of Things blog (January 2022)](https://techcommunity.microsoft.com/blog/iotblog/retail-self-checkout-object-detection-solution-using-azure-percept/3072914).
 
 ### Automated maintenance: rust detection
 

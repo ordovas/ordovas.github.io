@@ -1,0 +1,49 @@
+{%- comment -%}
+  Career drawn as an absorption spectrum: a continuous spectrum from the first
+  year to today, with each milestone in _data/timeline.yml as a dark line.
+  main.js makes it interactive: hovering/tapping shows a small tip under the line.
+{%- endcomment -%}
+{%- assign tl = site.data.timeline -%}
+{%- assign now_y = site.time | date: "%Y" | plus: 0 -%}
+{%- assign now_m = site.time | date: "%m" | plus: 0 | divided_by: 12.0 -%}
+{%- assign now = now_y | plus: now_m -%}
+{%- assign span = now | minus: tl.start -%}
+
+<figure class="career" data-career>
+  <div class="career-kinds" aria-hidden="true">
+    {%- for k in tl.kinds %}<span class="kind-{{ k[0] }}">{{ k[1] }}</span>{% endfor %}
+  </div>
+
+  <div class="career-marks" aria-hidden="true">
+    {%- for m in tl.milestones %}
+    {%- assign l = m.at | minus: tl.start | divided_by: span | times: 100 | round: 2 -%}
+    <span class="kind-{{ m.kind }}" style="left: {{ l }}%"></span>
+    {%- endfor %}
+  </div>
+
+  <div class="career-bar" tabindex="0" role="group" aria-label="Career milestones. Use the arrow keys to move between them.">
+    {%- for m in tl.milestones %}
+    {%- assign l = m.at | minus: tl.start | divided_by: span | times: 100 | round: 2 -%}
+    <span class="career-line" style="left: {{ l }}%" data-pos="{{ l }}" data-date="{{ m.date }}" data-kind="{{ m.kind }}" data-text="{{ m.text | escape }}"
+      {%- if m.detail %} data-detail="{{ m.detail | escape }}"{% endif %}
+      {%- if m.url %} data-url="{% if m.url contains '://' %}{{ m.url }}{% else %}{{ m.url | relative_url }}{% endif %}" data-link="{{ m.link | default: 'More' | escape }}"{% endif %}></span>
+    {%- endfor %}
+  </div>
+
+  <div class="career-scale" aria-hidden="true">
+    {%- assign first = tl.start | ceil -%}
+    {%- for y in (first..now_y) %}
+      {%- assign l = y | minus: tl.start | divided_by: span | times: 100 | round: 2 -%}
+      {%- assign odd = y | modulo: 2 -%}
+      <span class="tick{% if odd == 1 %} major{% endif %}" style="left: {{ l }}%">{% if odd == 1 %}<span>{{ y }}</span>{% endif %}</span>
+    {%- endfor %}
+  </div>
+  <div class="career-ends" aria-hidden="true"><span>Astrophysics</span><span>Data science &amp; GenAI</span></div>
+
+  <div class="career-caption" aria-live="polite" hidden>
+    <div class="career-tip">
+      <span class="dot"></span><span class="when"></span><strong class="text"></strong>
+      <span class="detail"></span><a class="link" href="#"></a>
+    </div>
+  </div>
+</figure>

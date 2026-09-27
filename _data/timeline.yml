@@ -1,0 +1,174 @@
+# Career spectrum on the home page: a continuous spectrum from `start` to today,
+# with each milestone drawn as an absorption line. Hovering/tapping shows `text`,
+# so keep it short (a few words). Optional: `detail` (one or two sentences shown
+# under it), `url` and `link` (the link label).
+# `at` is a decimal year (Sep 2012 = 2012.67). kind: career | paper | cert | talk | article
+start: 2012.5
+
+kinds:
+  career: Career
+  paper:  Paper
+  cert:   Certification
+  talk:   Talk
+  article: Article
+
+milestones:
+  - at:   2012.67
+    date: Sep 2012
+    kind: career
+    text: "Master's in Astrophysics (ULL)"
+    detail: "Master's Degree in Astrophysics, University of La Laguna, specialising in Computation & Theory and Technology & Instrumentation."
+    url:    "/cv/#education"
+    link:   "See in CV"
+
+  - at:   2013.54
+    date: Jul 2013
+    kind: talk
+    text: "Invited seminar at the IAC"
+    detail: "“Large databases in astronomy: searching for new automatic analysis methods”, Starburst group seminar, Instituto de Astrofísica de Canarias."
+    url:    "/astro/#talks-and-posters"
+    link:   "All talks"
+
+  - at:   2014.0
+    date: Jan 2014
+    kind: career
+    text: "Started PhD at IFCA"
+    detail: "PhD researcher at the Institute of Physics of Cantabria (CSIC-UC), supervised by Silvia Mateos and Francisco J. Carrera."
+    url:    "/astro/#active-galactic-nuclei"
+    link:   "Research"
+
+  - at:   2014.37
+    date: May 2014
+    kind: paper
+    text: "First paper, in A&A"
+    detail: "“A fast version of the k-means classification algorithm for astronomical applications”. Ordovás-Pascual & Sánchez Almeida, A&A 565, A53."
+    url:    "https://ui.adsabs.harvard.edu/abs/2014A%26A...565A..53O/abstract"
+    link:   "Read paper"
+
+  - at:   2015.7
+    date: Sep 2015
+    kind: career
+    text: "Research stay in Milan"
+    detail: "Visiting researcher at the Brera Astronomical Observatory (Sep–Oct 2015), supervised by Alessandro Caccianiga."
+    url:    "/astro/#research-stays"
+    link:   "Research stays"
+
+  - at:   2016.7
+    date: Sep 2016
+    kind: career
+    text: "Research stay in Athens"
+    detail: "Visiting researcher at the National Observatory of Athens (Sep–Oct 2016), supervised by Ioannis Georgantopoulos."
+    url:    "/astro/#research-stays"
+    link:   "Research stays"
+
+  - at:   2017.2
+    date: Mar 2017
+    kind: paper
+    text: "Paper in MNRAS (WISE AGN)"
+    detail: "“Searching for luminous absorbed sources in the WISE AGN catalogue”. Mountrichas et al., MNRAS 468, 3042."
+    url:    "https://ui.adsabs.harvard.edu/abs/2017MNRAS.468.3042M/abstract"
+    link:   "Read paper"
+
+  - at:   2017.28
+    date: Apr 2017
+    kind: paper
+    text: "First-author paper in MNRAS"
+    detail: "“AGNs with discordant optical and X-ray classification are not a physical family: diverse origin in two AGNs”. Ordovás-Pascual et al., MNRAS 469, 693."
+    url:    "https://ui.adsabs.harvard.edu/abs/2017MNRAS.469..693O/abstract"
+    link:   "Read paper"
+
+  - at:   2018.37
+    date: May 2018
+    kind: paper
+    text: "Paper in A&A (APOGEE)"
+    detail: "“Machine learning in APOGEE. Unsupervised spectral classification with K-means”. Garcia-Dias et al., A&A 612, A98."
+    url:    "https://ui.adsabs.harvard.edu/abs/2018A%26A...612A..98G/abstract"
+    link:   "Read paper"
+
+  - at:   2019.92
+    date: Dec 2019
+    kind: career
+    text: "PhD awarded, cum laude"
+    detail: "Doctor in Science and Technology, University of Cantabria. Thesis “A multifrequency view of Active Galactic Nuclei”."
+    url:    "/astro/agnphd/"
+    link:   "Thesis summary"
+
+  - at:   2020.92
+    date: Dec 2020
+    kind: career
+    text: "Ironhack bootcamp"
+    detail: "Data Analytics bootcamp (Oct–Dec 2020). Final project on dice recognition with CNNs, selected for the Hackshow."
+    url:    "/portfolio/ironhack/"
+    link:   "Projects"
+
+  - at:   2021.33
+    date: May 2021
+    kind: career
+    text: "Joined Cognizant"
+    detail: "Associate Data Scientist at Cognizant Technology Solutions, Madrid: GenAI, NLP, computer vision and statistics for clients."
+    url:    "/cv/#experience"
+    link:   "See in CV"
+
+  - at:   2021.7
+    date: Sep 2021
+    kind: cert
+    text: "Azure certification"
+    detail: "Microsoft Certified: Azure Fundamentals (AZ-900)."
+    url:    "https://www.credly.com/badges/525826f3-bad4-42b2-a243-043689d96d7d/linked_in"
+    link:   "View credential"
+
+  - at:   2022.07
+    date: Jan 2022
+    kind: article
+    text: "Article on Microsoft's IoT blog"
+    detail: "“Retail self-checkout object detection solution using Azure Percept”: our fruit-detection case study with Azure Percept, Custom Vision and IoT Hub."
+    url:    "https://techcommunity.microsoft.com/blog/iotblog/retail-self-checkout-object-detection-solution-using-azure-percept/3072914"
+    link:   "Read article"
+
+  - at:   2024.22
+    date: Mar 2024
+    kind: talk
+    text: "Invited talk, FOSS-CILT '24"
+    detail: "How LLMs perform on mathematical operations. International Conference on FOSS Approaches towards Computational Intelligence and Language Technology, ICFOSS (India)."
+    url:    "https://www.youtube.com/live/KaiTZIsTBYk?si=fusV0_Osfi5NkrTR&t=4042"
+    link:   "Watch the talk"
+
+  - at:   2024.5
+    date: Jul 2024
+    kind: paper
+    text: "Paper in A&A (AGN)"
+    detail: "“Extinction and AGN over host galaxy contrast effects on the optical spectroscopic classification of AGN”. Barquín-González et al., A&A 687, A159."
+    url:    "https://doi.org/10.1051/0004-6361/202348948"
+    link:   "Read paper"
+
+  - at:   2024.67
+    date: Sep 2024
+    kind: career
+    text: "Joined SDG Group"
+    detail: "Senior Consultant, Data Science at SDG Group, Madrid: GenAI solutions for a pharmaceutical company."
+    url:    "/cv/#experience"
+    link:   "See in CV"
+
+  - at:   2026.29
+    date: Apr 2026
+    kind: article
+    text: "Article on SDG Group's Medium"
+    detail: "“Injecting company jargon for Generative AI specific use cases”: injecting domain context into LLM prompts to build arXiv API queries."
+    url:    "https://medium.com/sdg-group/injecting-company-jargon-for-generative-ai-specific-use-cases-bde8d198751e"
+    link:   "Read article"
+
+  - at:   2026.6
+    date: Aug 2026
+    kind: talk
+    text: "Eclipse outreach talk"
+    detail: "Outreach talk and public activities with the Luz Cero Astronomical Association for the total solar eclipse of 12 August 2026, Alustante (Guadalajara)."
+    url:    "/astro/#teaching-and-outreach"
+    link:   "Outreach"
+
+  - at:   2026.69
+    date: Sep 2026
+    kind: cert
+    text: "Databricks GenAI certification"
+    detail: "Databricks Certified Generative AI Engineer Associate."
+    url:    "https://credentials.databricks.com/c0c7d13a-60c9-4fa7-89a0-8a16d408def3"
+    link:   "View credential"

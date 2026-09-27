@@ -323,3 +323,70 @@ strong { font-weight: 600; }
   a { color: inherit; text-decoration: none; }
   .tags li { border: 1px solid var(--border); background: none; padding: 0 .5rem; }
 }
+
+/* Talks list (Research page) */
+.prose .talks { list-style: none; padding: 0; margin: 1.25rem 0; display: grid; gap: .9rem; }
+.talks li { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; margin: 0; }
+.talks .when { margin: .1rem 0 0; }
+.talks p { margin: 0; }
+.talk-title { font-weight: 600; line-height: 1.4; }
+.talk-meta { color: var(--muted); font-size: .9rem; margin-top: .15rem !important; }
+.talk-kind { color: var(--accent); font-weight: 500; }
+@media (max-width: 480px) { .talks li { grid-template-columns: 1fr; gap: .1rem; } }
+
+/* Career spectrum (home page): milestones in _data/timeline.yml are absorption lines */
+.career { margin: 0; --k-career: var(--text); --k-paper: var(--accent); --k-cert: #d98a1c; --k-talk: #9a5fd0; --k-article: #d0417e; }
+.career-kinds { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; font-size: .8rem; color: var(--muted); margin-bottom: .9rem; }
+.career-kinds span { display: inline-flex; align-items: center; gap: .4rem; }
+.career-kinds span::before { content: ""; width: .55rem; height: .55rem; border-radius: 50%; background: var(--k); }
+.kind-career { --k: var(--k-career); }
+.kind-paper  { --k: var(--k-paper); }
+.kind-cert   { --k: var(--k-cert); }
+.kind-talk   { --k: var(--k-talk); }
+
+.career-marks { position: relative; height: 1rem; }
+.career-marks span {
+  position: absolute; bottom: .3rem; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--k); transform: translateX(-50%); transition: transform .15s;
+}
+.career-marks span.active { transform: translateX(-50%) scale(1.7); }
+
+.career-bar {
+  position: relative; height: 38px; border-radius: 6px; overflow: hidden; cursor: crosshair; touch-action: pan-y;
+  background: linear-gradient(90deg, #6b3fa0, #3b5bdb, #1c9fd6, #1fb58f, #9ccc3c, #f2c230, #f08a2c, #d9412b);
+}
+.career-bar:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.career-line { position: absolute; top: 0; bottom: 0; width: 2px; transform: translateX(-50%); background: rgb(10 14 20 / .72); transition: width .15s, background-color .15s; }
+.career-line.active { width: 4px; background: rgb(10 14 20 / .95); box-shadow: 0 0 0 1px rgb(255 255 255 / .7); }
+
+.career-scale { position: relative; height: 1.6rem; border-top: 1px solid var(--border); }
+.career-scale .tick { position: absolute; top: 0; width: 1px; height: 5px; background: var(--muted); opacity: .6; }
+.career-scale .tick.major { height: 9px; opacity: 1; }
+.career-scale .tick span { position: absolute; top: 11px; left: 50%; transform: translateX(-50%); font-size: .75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.career-ends { display: flex; justify-content: space-between; font-size: .75rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-top: .35rem; }
+
+.career-caption { margin-top: .9rem; min-height: 7.5rem; }
+.career-tip {
+  position: relative; width: max-content; max-width: min(100%, 24rem);
+  display: grid; grid-template-columns: auto 1fr; align-items: center; gap: .1rem .45rem;
+  padding: .45rem .7rem; border-radius: 8px; font-size: .88rem; line-height: 1.3;
+  background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow);
+  transition: margin-left .15s ease-out;
+}
+/* little arrow pointing up at the selected line */
+.career-tip::before {
+  content: ""; position: absolute; top: -6px; left: var(--arrow, 50%); width: 10px; height: 10px;
+  transform: translateX(-50%) rotate(45deg);
+  background: var(--surface); border-left: 1px solid var(--border); border-top: 1px solid var(--border);
+}
+.career-tip .dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--k); }
+.career-tip .when { margin: 0; font-size: .78rem; }
+.career-tip .text { grid-column: 1 / -1; font-weight: 600; }
+.career-tip .detail { grid-column: 1 / -1; color: var(--muted); font-size: .84rem; margin-top: .15rem; }
+.career-tip .link { grid-column: 1 / -1; font-size: .84rem; font-weight: 500; text-decoration: none; margin-top: .25rem; width: fit-content; }
+.career-tip .link:hover { text-decoration: underline; }
+.career-tip [hidden] { display: none; }
+@media (prefers-reduced-motion: reduce) { .career-tip, .career-line, .career-marks span { transition: none; } }
+
+.career-lead { margin-top: -.5rem; margin-bottom: 1.5rem; font-size: 1.02rem; }
+.kind-article { --k: var(--k-article); }

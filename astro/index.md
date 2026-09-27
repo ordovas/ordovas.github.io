@@ -38,3 +38,35 @@ My first experience with machine learning was my Master's thesis, supervised by 
 ## Supernova classification
 
 At the NEON Observing School 2015 in Asiago (Italy), I took part in an observing campaign where we classified a supernova six days after its peak brightness. [The classification was published in The Astronomer's Telegram](https://www.astronomerstelegram.org/?read=7120).
+
+## Talks and posters
+
+I presented my research at conferences and seminars, including two invited seminars, and I still give outreach talks.
+
+<ol class="talks">
+{%- for t in site.data.talks %}
+  <li>
+    <span class="when">{{ t.date }}</span>
+    <div>
+      <p class="talk-title">{{ t.title }}</p>
+      <p class="talk-meta"><span class="talk-kind">{{ t.kind }}</span> · {{ t.event }}</p>
+    </div>
+  </li>
+{%- endfor %}
+</ol>
+
+## Research stays
+
+- **Brera Astronomical Observatory**, Milan (Italy), Sep–Oct 2015, supervised by Alessandro Caccianiga.
+- **National Observatory of Athens** (Greece), Sep–Oct 2016, supervised by Ioannis Georgantopoulos.
+
+## Teaching and outreach
+
+I taught 35 hours of astronomy lab sessions for the Physics degree at the University of Cantabria:
+
+- Astronomy (in Spanish): 5 hours in 2015–16, and 10 hours each in 2016–17 and 2017–18.
+- Astronomy (in English): 5 hours each in 2015–16 and 2016–17.
+
+During my PhD I also prepared and took part in outreach activities organised by the Institute of Physics of Cantabria: public astronomical observations, popular science talks and visits to the institute, among others.
+
+More recently, in August 2026 I gave an outreach talk and helped with the public activities organised by the Luz Cero Astronomical Association in Alustante (Guadalajara) for the total solar eclipse of 12 August 2026, the first total eclipse visible from mainland Spain in over a century.

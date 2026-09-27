@@ -1,19 +1,24 @@
 # Featured work, most recent first. The home page shows the first four.
 - title: Injecting company jargon for generative AI
   kind:  Article
+  year:  2026
   text:  >-
-    An article for SDG Group's Medium publication on bringing company-specific
-    jargon into generative AI use cases.
+    How to inject company-specific knowledge (teams, project phases, glossaries)
+    into LLM prompts so they turn natural-language requests into valid arXiv API
+    queries, tested across model sizes.
   links:
     - label: Read on Medium
       url:   https://medium.com/sdg-group/injecting-company-jargon-for-generative-ai-specific-use-cases-bde8d198751e
+    - label: Code
+      url:   https://github.com/ordovas/context-inject-arxiv
 
-- title: Invited talk at FOSSCILT '24 (GenAI and maths)
+- title: Invited talk at FOSS-CILT '24 (GenAI and maths)
   kind:  Talk
   year:  2024
   text:  >-
-    Invited speaker at the FOSSCILT 2024 conference, presenting how LLMs perform on
-    mathematical operations.
+    Invited speaker at the International Conference on FOSS Approaches towards
+    Computational Intelligence and Language Technology (ICFOSS, India, March 2024),
+    presenting how LLMs perform on mathematical operations.
   links:
     - label: Watch the talk
       url:   https://www.youtube.com/live/KaiTZIsTBYk?si=fusV0_Osfi5NkrTR&t=4042
@@ -27,7 +32,7 @@
     using Custom Vision and IoT Hub. Published on Microsoft's Internet of Things blog.
   links:
     - label: Read the blog post
-      url:   https://techcommunity.microsoft.com/t5/internet-of-things-blog/retail-self-checkout-object-detection-solution-using-azure/ba-p/3072914
+      url:   https://techcommunity.microsoft.com/blog/iotblog/retail-self-checkout-object-detection-solution-using-azure-percept/3072914
     - label: Video
       url:   https://www.youtube.com/watch?v=juJ8_O-wIwA
 
